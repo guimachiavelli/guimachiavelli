@@ -1,6 +1,5 @@
 source 'http://rubygems.org'
 
-
 gem 'nesta', '0.9.13'
 gem 'sass'
 gem 'compass'
