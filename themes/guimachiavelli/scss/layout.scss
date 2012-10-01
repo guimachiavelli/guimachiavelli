@@ -1,0 +1,171 @@
+@import "partials/head";
+@import "partials/reset";
+@import "partials/extras";
+@import "compass/css3";
+
+ /* Primary Styles
+    Author: guiMachiavelli
+ */
+
+html { font: $default-fsize/$baseline Monaco, Courier, monospace }
+
+body, select, input, textarea {
+	color: $text-color; 
+	font-family: Monaco, Inconsolata, Courier, monospace;
+	font-size: 1em;
+	text-align: left;
+	background: white url(../imgs/flash.gif) repeat 0 0;
+}
+
+a { color: $main-color; text-decoration: none }
+
+a:hover { background: white url(../imgs/hover.gif) repeat 0 0 }
+
+a.reply { color: #ccc }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'IM Fell Great Primer', Georgia, serif; }
+
+p { font-size: 0.83333333em; line-height: 18px }
+
+
+#wrap {
+	margin: 54px auto;
+	width: 430px;
+}
+
+#intro h1 { font-size: 2.41666667em; line-height: 36px;}
+
+#intro h2 { 
+	font-family: Monaco, Inconsolata, Courier, monospace;
+}
+
+dt, #intro h2 a { font-family: 'IM Fell Great Primer', Georgia, serif; font-size: 1.25em; line-height: 18px }
+
+.menu {
+	position: absolute;
+	width: 430px;
+	top: 0
+}
+
+.menu li {
+	float: left;
+	margin-right: 42px;
+	background: $main-color;
+	padding: 10px
+}
+
+.menu li a { color: #fff }
+.menu li a:hover { color: $main-color }
+
+.menu li:last-child { margin: 0; }
+
+#main { width: 100%; margin-top: 18px }
+
+.post {
+	padding: 0 2.5% 18px 2.5%;
+	margin-bottom: 17px;
+	border-bottom: 1px solid #eee;
+	color: #ccc;
+}
+
+
+.post.process, .post.texts, .post.drawings, .post.projects {
+	font-family: 'IM Fell Great Primer', Georgia, serif; 
+	font-size: 18px;
+	line-height: 27px;
+	width: 150%;
+	margin-left: -55%;
+	color: #333;
+	padding-top: 9px;
+}
+
+
+.post.first {
+	font-family: 'IM Fell Great Primer', Georgia, serif; 
+	font-size: 36px;
+	line-height: 45px;
+	width: 830px;
+	margin-left: -400px;
+}
+
+.post.process a.reply, .post.texts a.reply, .post.drawings a.reply, .post.projects a.reply { color: #333 }
+
+footer { text-align: right }
+
+
+
+/* CV Page */
+dt, dd { padding: 0 2.5% }
+
+dt {
+	margin-top: 18px;
+	color: #000bff;
+	border-top: 1px solid #eee;
+	padding-top: 17px
+}
+
+.cv dd {
+	margin-bottom: 18px
+}
+
+/*
+ * Media queries for responsive design
+ * These follow after primary styles so they will successfully override. 
+ */
+
+@media all and (orientation:portrait) { 
+  /* Style adjustments for portrait mode goes here */
+  
+}
+
+@media all and (orientation:landscape) { 
+  /* Style adjustments for landscape mode goes here */
+  
+}
+
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
+   Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+  
+	.post.texts, .post.drawings, .post.projects {
+		width: 100%;
+		margin-left: 0;
+	}
+  
+  body, select, input, textarea {background-image:none}
+  /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
+     j.mp/textsizeadjust 
+  html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+
+@media only screen and (max-device-width: 768px) {
+
+	.post {
+		padding: 0 2.5% 6px 2.5%;
+	}
+	
+	.post.texts, .post.drawings, .post.projects {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	
+	.post.first {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	body, select, input, textarea {background-image:none}
+}
+
+
+
+/****************************************************************
+
+	PRINT
+	The music of pandaria
+
+****************************************************************/
+@import "partials/print";

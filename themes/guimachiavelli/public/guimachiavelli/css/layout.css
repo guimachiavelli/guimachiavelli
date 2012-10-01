@@ -1,0 +1,635 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+}
+
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00e;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 0;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+small {
+  font-size: 85%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+dl, ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+dd {
+  margin: 0;
+}
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+  white-space: normal;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  vertical-align: top;
+}
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+iframe {
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* 
+ * minimal base styles 
+ */
+/* always force a scrollbar in non-IE 
+html { overflow-y: scroll; }/*
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {
+  outline: none;
+}
+
+pre {
+  padding: 15px;
+  white-space: pre;
+  /* CSS2 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */
+}
+
+textarea {
+  overflow: auto;
+}
+
+/* thnx ivannikolic! www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+.ie6 legend, .ie7 legend {
+  margin-left: -7px;
+}
+
+/* thnx ivannikolic! */
+/* align checkboxes, radios, text inputs with their label
+   by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+  vertical-align: bottom;
+}
+
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline;
+}
+
+.ie6 input {
+  vertical-align: text-bottom;
+}
+
+/* hand cursor on clickable input elements */
+label, input[type=button], input[type=submit], button {
+  cursor: pointer;
+}
+
+/* colors for form validity */
+input:invalid, textarea:invalid {
+  border-radius: 1px;
+  -moz-box-shadow: 0px 0px 5px red;
+  -webkit-box-shadow: 0px 0px 5px red;
+  box-shadow: 0px 0px 5px red;
+}
+
+.no-boxshadow input:invalid,
+.no-boxshadow textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* These selection declarations have to be separate.
+   No text-shadow: twitter.com/miketaylr/status/12228805301 
+   Also: hot pink. */
+::-moz-selection {
+  background: #000bff;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #000bff;
+  color: #fff;
+  text-shadow: none;
+}
+
+/*  j.mp/webkit-tap-highlight-color */
+a:link {
+  -webkit-tap-highlight-color: #000bff;
+}
+
+/* make buttons play nice in IE:    
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {
+  width: auto;
+  overflow: visible;
+}
+
+/* bicubic resizing for non-native sized IMG: 
+   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Primary Styles
+   Author: guiMachiavelli
+*/
+html {
+  font: 0.66667 Monaco, Courier, monospace;
+}
+
+body, select, input, textarea {
+  color: #3a3333;
+  font-family: Monaco, Inconsolata, Courier, monospace;
+  font-size: 1em;
+  text-align: left;
+  background: white url(../imgs/flash.gif) repeat 0 0;
+}
+
+a {
+  color: #000bff;
+  text-decoration: none;
+}
+
+a:hover {
+  background: white url(../imgs/hover.gif) repeat 0 0;
+}
+
+a.reply {
+  color: #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IM Fell Great Primer', Georgia, serif;
+}
+
+p {
+  font-size: 0.83333333em;
+  line-height: 18px;
+}
+
+#wrap {
+  margin: 54px auto;
+  width: 430px;
+}
+
+#intro h1 {
+  font-size: 2.41666667em;
+  line-height: 36px;
+}
+
+#intro h2 {
+  font-family: Monaco, Inconsolata, Courier, monospace;
+}
+
+dt, #intro h2 a {
+  font-family: 'IM Fell Great Primer', Georgia, serif;
+  font-size: 1.25em;
+  line-height: 18px;
+}
+
+.menu {
+  position: absolute;
+  width: 430px;
+  top: 0;
+}
+
+.menu li {
+  float: left;
+  margin-right: 42px;
+  background: #000bff;
+  padding: 10px;
+}
+
+.menu li a {
+  color: #fff;
+}
+
+.menu li a:hover {
+  color: #000bff;
+}
+
+.menu li:last-child {
+  margin: 0;
+}
+
+#main {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.post {
+  padding: 0 2.5% 18px 2.5%;
+  margin-bottom: 17px;
+  border-bottom: 1px solid #eee;
+  color: #ccc;
+}
+
+.post.process, .post.texts, .post.drawings, .post.projects {
+  font-family: 'IM Fell Great Primer', Georgia, serif;
+  font-size: 18px;
+  line-height: 27px;
+  width: 150%;
+  margin-left: -55%;
+  color: #333;
+  padding-top: 9px;
+}
+
+.post.first {
+  font-family: 'IM Fell Great Primer', Georgia, serif;
+  font-size: 36px;
+  line-height: 45px;
+  width: 830px;
+  margin-left: -400px;
+}
+
+.post.process a.reply, .post.texts a.reply, .post.drawings a.reply, .post.projects a.reply {
+  color: #333;
+}
+
+footer {
+  text-align: right;
+}
+
+/* CV Page */
+dt, dd {
+  padding: 0 2.5%;
+}
+
+dt {
+  margin-top: 18px;
+  color: #000bff;
+  border-top: 1px solid #eee;
+  padding-top: 17px;
+}
+
+.cv dd {
+  margin-bottom: 18px;
+}
+
+/*
+ * Media queries for responsive design
+ * These follow after primary styles so they will successfully override. 
+ */
+@media all and (orientation: portrait) {
+  /* Style adjustments for portrait mode goes here */
+}
+@media all and (orientation: landscape) {
+  /* Style adjustments for landscape mode goes here */
+}
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
+   Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+  .post.texts, .post.drawings, .post.projects {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  body, select, input, textarea {
+    background-image: none;
+  }
+
+  /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
+     j.mp/textsizeadjust 
+  html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+@media only screen and (max-device-width: 768px) {
+  .post {
+    padding: 0 2.5% 6px 2.5%;
+  }
+
+  .post.texts, .post.drawings, .post.projects {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .post.first {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body, select, input, textarea {
+    background-image: none;
+  }
+}
+/****************************************************************
+
+	PRINT
+	The music of pandaria
+
+****************************************************************/
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

@@ -1,0 +1,43 @@
+Date:  31 Dec 2010
+
+[pv]: http: //www.pinar-viola.com
+[mobe]:  http: //www.mobedesign.com.br
+[w3]: http: //www.mobedesign.com.br
+[hyper]:  http: //www.hyperisland.com
+
+# CV
+
+Professional activities
+: november 2011 — april 2012 | intern at turkish-dutch design studio [Pinar&Viola][pv].
+: april 2008 — august 2010 | designer and developer at [Mobe][mobe].
+: july 2007 — april 2008 | Front-end developer at brazilian digital agency [W3Haus][w3].
+: january 2007 — july 2007 | Front-end developer at brazilian digital agency Tempo Digital.
+: april 2006 — december 2006 | Junior Researcher at LEAD/UFRGS – Laboratório Eletrônico de Arte e Design (Electronic Laboratory of Art and Design).
+
+Studies
+: 2010 – 2012 | Digital Media — [Hyper Island][hyper], Stockholm, Sweden.
+: 2009 | Procedência & Propriedade 2009/1 – Intensive drawing and conceptualization course, created by Charles Watson.
+: 2004 – 2009 | BA Communications – Journalism. Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil.
+
+
+Skills
+: HTML/CSS/JS (advanced), Wordpress(advanced), PHP (intermediary), Ruby (basic), Processing (basic), Openframeworks (basic).
+
+Languages
+: Portuguese (native), English (fluent), Italian (fluent), Spanish (intermediary), French (intermediary), Swedish (intermediary).
+
+Group exhibitions
+: 26 november – 2011 | I Will. Eddie the Eagle Hackathon. Amsterdam, The Netherlands.
+: October 29th — 31st 2010 | one swallow does not make a summer. HI10 Exhibition. Stockholm, Sweden.
+
+
+Articles
+: 2008 | <a href="http: //www.underconsideration.com/brandnew/archives/the_battle_of_guaran.php">The Battle of Guaraná</a>. On Brand New:  Opinions on Corporate and Brand Identity Work.
+: 2008 | <a href="http: //www.underconsideration.com/brandnew/archives/around_the_globe_since_the_six.php">Around the Globe since the Sixties</a>. On Brand New:  Opinions on Corporate and Brand Identity Work
+: 2008 | <a href="http: //www.underconsideration.com/brandnew/archives/uio_unidentified_identity_obje.php">UIO:  Unidentified Identity Object</a>. On Brand New:  Opinions on Corporate and Brand Identity Work.
+
+Workshops & lectures
+: 2011 | December Internet Vernacular:  Current Internet Memes. Amsterdam, The Netherlands.
+: 2011 | february Idea Generation and Ideation Techniques. São Paulo, Brazil:  Hyper Island Meet Up with Sinc Digital. Together with Christian Olsson.
+: 2011 | april Grid Systems applied to design for digital media. Stockholm, Sweden:  Hyper Island.
+: 2010 | october New Technologies in Front-End Development. Stockholm, Sweden:  Hyper Island.

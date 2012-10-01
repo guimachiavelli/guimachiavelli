@@ -1,0 +1,27 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "susy";
+
+// ---------------------------------------------------------------------------
+// Basic Grid
+
+$total-columns  : 12;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : 5%;
+$container-style: fluid;
+
+$show-grid-backgrounds: true;
+
+//typography vars
+$default-fsize: 12px;
+$baseline: 18px;
+
+
+
+
+//color vars
+$main-color: #000bff;
+$text-color: #3a3333;
+
