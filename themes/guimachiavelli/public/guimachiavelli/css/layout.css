@@ -379,32 +379,29 @@ button {
    Author: guiMachiavelli
 */
 html {
-  font: 0.66667 Monaco, Courier, monospace;
+  font: 0.61111 Monaco, Courier, monospace;
 }
 
 body, select, input, textarea {
   color: #3a3333;
   font-family: Monaco, Inconsolata, Courier, monospace;
   font-size: 1em;
-  text-align: left;
-  background: white url(../imgs/flash.gif) repeat 0 0;
 }
 
 a {
   color: #000bff;
+  display: inline;
   text-decoration: none;
 }
-
 a:hover {
   background: white url(../imgs/hover.gif) repeat 0 0;
 }
-
 a.reply {
-  color: #ccc;
+  color: #cccccc;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'IM Fell Great Primer', Georgia, serif;
+  font-family: "IM Fell Great Primer", Georgia, serif;
 }
 
 p {
@@ -421,13 +418,28 @@ p {
   font-size: 2.41666667em;
   line-height: 36px;
 }
-
 #intro h2 {
   font-family: Monaco, Inconsolata, Courier, monospace;
 }
+#intro h2 a {
+  font-family: "IM Fell Great Primer", Georgia, serif;
+  font-size: 1.25em;
+  line-height: 18px;
+}
+#intro aside {
+  display: inline;
+}
+#intro aside * {
+  display: inline;
+}
+#intro li a {
+  border: 1px solid #827B7B;
+  padding: 2px 5px;
+  vertical-align: 5px;
+}
 
-dt, #intro h2 a {
-  font-family: 'IM Fell Great Primer', Georgia, serif;
+dt {
+  font-family: "IM Fell Great Primer", Georgia, serif;
   font-size: 1.25em;
   line-height: 18px;
 }
@@ -437,62 +449,121 @@ dt, #intro h2 a {
   width: 430px;
   top: 0;
 }
-
 .menu li {
   float: left;
   margin-right: 42px;
   background: #000bff;
   padding: 10px;
 }
-
 .menu li a {
   color: #fff;
 }
-
 .menu li a:hover {
   color: #000bff;
 }
-
 .menu li:last-child {
   margin: 0;
 }
 
 #main {
-  width: 100%;
-  margin-top: 18px;
+  width: 493px;
+  margin-top: 42px;
+  position: relative;
 }
 
 .post {
-  padding: 0 2.5% 18px 2.5%;
-  margin-bottom: 17px;
-  border-bottom: 1px solid #eee;
-  color: #ccc;
+  clear: both;
+  margin-bottom: 68px;
+  /* single project page */
 }
-
-.post.process, .post.texts, .post.drawings, .post.projects {
-  font-family: 'IM Fell Great Primer', Georgia, serif;
-  font-size: 18px;
-  line-height: 27px;
-  width: 150%;
-  margin-left: -55%;
-  color: #333;
-  padding-top: 9px;
+.post header {
+  margin-bottom: 22px;
 }
-
-.post.first {
-  font-family: 'IM Fell Great Primer', Georgia, serif;
-  font-size: 36px;
-  line-height: 45px;
-  width: 830px;
-  margin-left: -400px;
+.post h1, .post h2, .post .titulo {
+  font-size: 128px;
+  line-height: 126px;
 }
-
-.post.process a.reply, .post.texts a.reply, .post.drawings a.reply, .post.projects a.reply {
-  color: #333;
+.post h1 a, .post h2 a, .post .titulo a {
+  color: #3a3333;
+}
+.post figure {
+  text-align: center;
+}
+.post:first-child {
+  margin-top: -2px;
+}
+.post.archive {
+  margin-bottom: 0 !important;
+}
+.post.home figure {
+  width: 493px;
+  margin-top: -5px;
+}
+.post.single header {
+  margin: 10px 0 -7px 0;
+}
+.post.single h1 {
+  font-size: 47px;
+  line-height: 54px;
+}
+.post.single p {
+  margin-bottom: 18px;
+}
+.post.single footer {
+  margin-bottom: 13px;
+}
+.post.single section, .post.single footer, .post figcaption {
+  width: 493px;
+  text-align: left;
+  margin-left: 0;
+}
+.post.single section {
+  margin: 6px 0 12px 0;
+}
+.post .single figure img {
+  display: inline;
+  line-height: 18px;
+  margin: 0 0 14px 0;
+}
+.post .single figure > * {
+  line-height: 18px;
+  margin: 0 0 14px 0;
 }
 
 footer {
   text-align: right;
+}
+
+/* post tags */
+.post footer li {
+  display: inline;
+  border-left: 1px solid #827B7B;
+  padding-left: 7px;
+  font-size: 10px;
+}
+
+.post footer li:first-child {
+  border: 0;
+  padding: 0;
+}
+
+.pagination li {
+  float: left;
+  margin-left: 1em;
+}
+
+.pagination li .active a {
+  color: #ccc;
+}
+
+.pagination li:first-child {
+  margin: 0;
+}
+
+#tag-title {
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-bottom: 18px;
 }
 
 /* CV Page */

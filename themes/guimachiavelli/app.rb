@@ -6,6 +6,17 @@ require 'sass'
 
 
 module Nesta
+
+  class FileModel
+    def thumbnail
+      metadata('thumbnail')
+    end
+
+    def project_link
+      metadata('project link')
+    end
+
+  end
   class App
     nesta_config = YAML::load(File.open(File.join("config", "config.yml")))
     use Rack::Static, :urls => ['/' + nesta_config['theme']], :root => 'themes/' + nesta_config['theme'] + '/public'

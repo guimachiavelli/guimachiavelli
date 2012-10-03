@@ -1,7 +1,9 @@
-Date:  31 Dec 2010
+Date: 31 Dec 2010
+Categories: adam-stacoviak, projects
 Thumbnail: dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/map-excerpt.jpg
-Link: google.com
-Categories: front-end
+Project Link: google.com
+
+
 
 [pv]: http: //www.pinar-viola.com
 [mobe]:  http: //www.mobedesign.com.br

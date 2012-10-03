@@ -1,9 +1,8 @@
 .breadcrumb
-  %a{ :href => "/" } Home
-  &gt;
+  
   - if @page.parent
     %a{ :href => @page.parent.abspath }= @page.parent.heading
-    &gt;
+
   = @page.heading
 
 #content
@@ -15,7 +14,7 @@
   = haml :summaries, :layout => false, :locals => { :pages => @page.pages, :heading => :h3 }
 
   - unless @page.articles.empty?
-    %h2= "Articles on #{@page.heading}"
+    %h2= "#{@page.heading} Projects"
     = haml :summaries, :layout => false, :locals => { :pages => @page.articles, :heading => :h3 }
 
   - unless @page.categories.empty?

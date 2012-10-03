@@ -2,10 +2,11 @@
 @import "partials/reset";
 @import "partials/extras";
 @import "compass/css3";
+@import "susy";
 
  /* Primary Styles
     Author: guiMachiavelli
- */
+ */ 
 
 html { font: $default-fsize/$baseline Monaco, Courier, monospace }
 
@@ -13,19 +14,26 @@ body, select, input, textarea {
 	color: $text-color; 
 	font-family: Monaco, Inconsolata, Courier, monospace;
 	font-size: 1em;
-	text-align: left;
-	background: white url(../imgs/flash.gif) repeat 0 0;
 }
 
-a { color: $main-color; text-decoration: none }
+a { 
+	color: $main-color;
+	display: inline;
+	text-decoration: none;
 
-a:hover { background: white url(../imgs/hover.gif) repeat 0 0 }
+	&:hover { 
+		background: white url(../imgs/hover.gif) repeat 0 0 
+	}
 
-a.reply { color: #ccc }
+	&.reply { 
+		color: #ccc 
+	}
 
-h1, h2, h3, h4, h5, h6 { font-family: 'IM Fell Great Primer', Georgia, serif; }
+}
 
-p { font-size: 0.83333333em; line-height: 18px }
+h1, h2, h3, h4, h5, h6 { font-family: $display-font }
+
+p { font-size: 0.83333333em; line-height: $baseline }
 
 
 #wrap {
@@ -33,72 +41,144 @@ p { font-size: 0.83333333em; line-height: 18px }
 	width: 430px;
 }
 
-#intro h1 { font-size: 2.41666667em; line-height: 36px;}
+#intro {
+	
+	h1 { 
+		font-size: 2.41666667em; 
+		line-height: $baseline*2;
+	}
 
-#intro h2 { 
-	font-family: Monaco, Inconsolata, Courier, monospace;
+	h2 { 
+		font-family: Monaco, Inconsolata, Courier, monospace;
+
+		a {
+			font-family: $display-font; 
+			font-size: 1.25em; 
+			line-height: $baseline;
+		}
+	}
+
+	aside { 
+		display: inline;
+
+		* { display: inline }
+	}
+	
+	li a { border: 1px solid #827B7B; padding: 2px 5px; vertical-align: 5px}
 }
 
-dt, #intro h2 a { font-family: 'IM Fell Great Primer', Georgia, serif; font-size: 1.25em; line-height: 18px }
+dt { 
+	font-family: $display-font; 
+	font-size: 1.25em; 
+	line-height: $baseline 	
+}
 
 .menu {
 	position: absolute;
 	width: 430px;
-	top: 0
+	top: 0;
+
+	li {
+		float: left;
+		margin-right: 42px;
+		background: $main-color;
+		padding: 10px;
+
+		a { color: #fff }
+		a:hover { color: $main-color }
+
+		&:last-child { margin: 0; }
+	}
 }
 
-.menu li {
-	float: left;
-	margin-right: 42px;
-	background: $main-color;
-	padding: 10px
-}
 
-.menu li a { color: #fff }
-.menu li a:hover { color: $main-color }
-
-.menu li:last-child { margin: 0; }
-
-#main { width: 100%; margin-top: 18px }
+#main { width: 493px; margin-top: 42px; position: relative }
 
 .post {
-	padding: 0 2.5% 18px 2.5%;
-	margin-bottom: 17px;
-	border-bottom: 1px solid #eee;
-	color: #ccc;
+	clear: both;
+	margin-bottom: 68px;
+
+	header { margin-bottom: 22px }
+
+	h1, h2, .titulo { 
+		font-size: 128px; 
+		line-height: 126px;
+		a { color:#3a3333 }
+	}
+
+	figure { text-align: center }
+
+	&:first-child { margin-top: -2px }
+	&.archive {	margin-bottom: 0 !important	}
+	&.home figure {
+		width: 493px;
+		margin-top: -5px;
+	}
+
+
+	/* single project page */
+
+	&.single header { margin: 10px 0 -7px 0 }
+	&.single h1 { font-size: 47px; line-height: 54px }
+	&.single p { margin-bottom: 18px }
+
+	&.single footer { margin-bottom: 13px }
+
+	&.single section, &.single footer, figcaption {
+		width: 493px;
+		text-align: left;
+		margin-left: 0;
+	}
+
+	&.single section { margin: 6px 0 12px 0 }
+
+	
+
+	.single figure img {
+		display: inline;
+		line-height: 18px;
+		margin: 0 0 14px 0
+	}
+
+	.single figure>* {
+		line-height: 18px;
+		margin: 0 0 14px 0 
+	}
+
+
 }
-
-
-.post.process, .post.texts, .post.drawings, .post.projects {
-	font-family: 'IM Fell Great Primer', Georgia, serif; 
-	font-size: 18px;
-	line-height: 27px;
-	width: 150%;
-	margin-left: -55%;
-	color: #333;
-	padding-top: 9px;
-}
-
-
-.post.first {
-	font-family: 'IM Fell Great Primer', Georgia, serif; 
-	font-size: 36px;
-	line-height: 45px;
-	width: 830px;
-	margin-left: -400px;
-}
-
-.post.process a.reply, .post.texts a.reply, .post.drawings a.reply, .post.projects a.reply { color: #333 }
 
 footer { text-align: right }
 
+
+
+
+/* post tags */
+
+.post footer li {
+	display: inline;
+	border-left: 1px solid #827B7B;
+	padding-left: 7px;
+	font-size: 10px
+}
+
+.post footer li:first-child { border:0; padding: 0 }
+
+
+
+
+.pagination li {float: left; margin-left: 1em }
+.pagination li .active a {color: #ccc }
+.pagination li:first-child {margin:0}
+
+#tag-title { font-size: 36px; text-transform: capitalize; margin-bottom: 18px }
 
 
 /* CV Page */
 dt, dd { padding: 0 2.5% }
 
 dt {
-	margin-top: 18px;
+	margin-top: $baseline;
 	color: #000bff;
 	border-top: 1px solid #eee;
 	padding-top: 17px
