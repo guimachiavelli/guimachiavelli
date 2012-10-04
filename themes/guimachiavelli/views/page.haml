@@ -11,11 +11,11 @@
 
   ~ @page.to_html(self)
 
-  = haml :summaries, :layout => false, :locals => { :pages => @page.pages, :heading => :h3 }
+  = haml :summaries, :layout => false, :locals => { :pages => @page.pages, :heading => :h1 }
 
   - unless @page.articles.empty?
     %h2= "#{@page.heading} Projects"
-    = haml :summaries, :layout => false, :locals => { :pages => @page.articles, :heading => :h3 }
+    = haml :summaries, :layout => false, :locals => { :pages => @page.articles, :heading => :h1 }
 
   - unless @page.categories.empty?
     .categories

@@ -1,16 +1,14 @@
 - unless pages.empty?
   - pages.each do |page|
-    %article(class="home post")
-      %figure
-        - unless page.thumbnail.nil? || page.thumbnail.empty?
-          %a(href="http://#{page.parent.abspath}#{page.abspath}")
-            %img(src="http://#{page.thumbnail}")
-      %footer
-        - unless page.categories.nil? || page.categories.empty?
-          %ul
-            - page.categories.each do |category|
-              - if category != page.categories[-1]
-                = succeed ',' do
+    - if ! page.flagged_as?('other')
+      %article(class="home post")
+        %figure
+          - unless page.thumbnail.nil? || page.thumbnail.empty?
+            %a(href="#{page.abspath}")
+              %img(src="http://#{page.thumbnail}")
+        %footer
+          - unless page.categories.nil? || page.categories.empty?
+            %ul
+              - page.categories.each do |category|
+                %li
                   %a(href="#{category.abspath}")= category.heading
-              - else
-                %a(href="#{category.abspath}")= category.heading

@@ -1,0 +1,14 @@
+Date: 2009-02-10
+Title: 8 Days a Week (2011)
+Excerpt: http://dl.dropbox.com/u/5229171/portfolio/images/trewee/site0.jpg
+Tags: PHP, Wordpress, programming, HMTL, CSS
+
+[link-site]:http://trewee.com
+[link-collab1]:http://emilhagbo.com/
+[link-collab2]:http://www.mattisforsman.se/
+
+Online portfolio for Tre Wee, a classmate from Hyper Island and strategist. Site designed by [Mattis Forsman][link-collab2] and developed partly by me and partly by [Emil Hagbo][link-collab2] using Wordpress and Jquery.
+
+<figure>[![](http://dl.dropbox.com/u/5229171/portfolio/images/trewee/site1.jpg)][link-site]</figure>
+<figure>[![](http://dl.dropbox.com/u/5229171/portfolio/images/trewee/site3.jpg)][link-site]</figure>
+<figure>[![](http://dl.dropbox.com/u/5229171/portfolio/images/trewee/site2.jpg)][link-site]</figure>
