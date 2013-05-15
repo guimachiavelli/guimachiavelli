@@ -17,6 +17,18 @@ module Nesta
     end
 
   end
+  
+
+  class Page < FileModel
+    def summary
+      if summary_text = metadata("summary")
+        summary_text.gsub!('\n', "\n")
+        convert_to_html(nil, nil, nil)
+      end
+    end
+  end
+
+
   class App
     nesta_config = YAML::load(File.open(File.join("config", "config.yml")))
     use Rack::Static, :urls => ['/' + nesta_config['theme']], :root => 'themes/' + nesta_config['theme'] + '/public'
@@ -33,6 +45,24 @@ module Nesta
       def current_url
         request.url
       end
+
+      def latest_articles(count = 50)
+        Nesta::Page.find_articles[0..count - 1]
+      end
+
+      def list_articles(articles)
+        haml_tag :ol do
+          articles.each do |article|
+            haml_tag :li do
+              haml_tag :a, article.heading, :href => url(article.abspath)
+            end
+          end
+        end
+      end
+
+      def articles_heading
+        @page.metadata('articles heading') || "Projects on #{@page.heading}"
+      end
     end
 
     configure :production do
@@ -44,7 +74,7 @@ module Nesta
       cache sass(params[:sheet].to_sym, Compass.sass_engine_options)
     end
 
-    Tilt.prefer Tilt::KramdownTemplate
+ #   Tilt.prefer Tilt::KramdownTemplate
 
   end
 end

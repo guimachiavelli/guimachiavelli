@@ -1,0 +1,16 @@
+Date: 2009-12-31
+Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/aptc/site0.jpg
+Categories: coding, design
+
+# APTC (2009)
+
+Site I designed and developed as a designer at Mobe for an association of cinema and video professionals from the south of Brazil. Back-end in wordpress, front-end in html/css/js.
+Online at [http://aptc.org.br][link-site].
+
+
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/aptc/site1.png)][link-site]
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/aptc/site2.png)][link-site]
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/aptc/site3.png)][link-site]
+
+
+[link-site]:http://aptc.org.br

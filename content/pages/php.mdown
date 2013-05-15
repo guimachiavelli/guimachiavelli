@@ -1,3 +1,0 @@
-# PHP
-
-Usually small projects or sites using Wordpress as a CMS

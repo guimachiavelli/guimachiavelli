@@ -1,8 +1,4 @@
-/
-front-end
-ruby
-php
-wordpress
+coding
 design
 illustration
 labs

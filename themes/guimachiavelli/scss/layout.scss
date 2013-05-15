@@ -1,14 +1,11 @@
 @import "partials/head";
 @import "partials/reset";
-@import "partials/extras";
-@import "compass/css3";
-@import "susy";
 
  /* Primary Styles
     Author: guiMachiavelli
  */ 
 
-html { font: $default-fsize/$baseline Monaco, Courier, monospace }
+html { font: $default-fsize Monaco, Courier, monospace; line-height: $baseline }
 
 body, select, input, textarea {
 	color: $text-color; 
@@ -22,7 +19,8 @@ a {
 	text-decoration: none;
 
 	&:hover { 
-		background: white url(../imgs/hover.gif) repeat 0 0 
+		background: white url(../imgs/hover.gif) repeat 0 0;
+		text-decoration: none;
 	}
 
 	&.reply { 
@@ -31,31 +29,27 @@ a {
 
 }
 
-h1, h2, h3, h4, h5, h6 { font-family: $display-font }
+h1, h2, h3, h4, h5, h6 { @include display-font; }
 
-p { font-size: 0.83333333em; line-height: $baseline }
+p { font-size: 0.83333333em; line-height: $baseline; }
 
 
 #wrap {
-	margin: 54px auto;
-	width: 430px;
+	margin: 40px auto;
+	width: 493px;
 }
 
 #intro {
-	
+	height: $baseline*4;
 	h1 { 
-		font-size: 2.41666667em; 
+		font-size: 2.41666667em;
+		display: inline;
 		line-height: $baseline*2;
 	}
 
-	h2 { 
-		font-family: Monaco, Inconsolata, Courier, monospace;
-
-		a {
-			font-family: $display-font; 
-			font-size: 1.25em; 
-			line-height: $baseline;
-		}
+	h2 {
+		font-family: $display-font;
+		font-size: 1.25em;
 	}
 
 	aside { 
@@ -74,12 +68,12 @@ dt {
 }
 
 .menu {
-	position: absolute;
-	width: 430px;
+	position: fixed;
 	top: 0;
+	left: 0;
 
 	li {
-		float: left;
+		
 		margin-right: 42px;
 		background: $main-color;
 		padding: 10px;
@@ -87,12 +81,16 @@ dt {
 		a { color: #fff }
 		a:hover { color: $main-color }
 
-		&:last-child { margin: 0; }
+		
 	}
 }
 
 
-#main { width: 493px; margin-top: 42px; position: relative }
+#main { 
+	width: 493px; 
+	margin-top: 42px; 
+	position: relative;
+}
 
 .post {
 	clear: both;

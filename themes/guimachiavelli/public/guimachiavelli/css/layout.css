@@ -261,125 +261,102 @@ iframe {
   border: 0;
 }
 
-img {
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-}
-
-a:focus {
-  outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-
 /* 
- * minimal base styles 
- */
-/* always force a scrollbar in non-IE 
-html { overflow-y: scroll; }/*
-/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
-a:hover, a:active {
-  outline: none;
+  html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+  v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark
+  html5doctor.com/html-5-reset-stylesheet/
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  list-style: none;
+  font-weight: 400;
 }
 
-pre {
-  padding: 15px;
-  white-space: pre;
-  /* CSS2 */
-  white-space: pre-wrap;
-  /* CSS 2.1 */
-  white-space: pre-line;
-  /* CSS 3 (and 2.1 as well, actually) */
-  word-wrap: break-word;
-  /* IE */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 
-textarea {
-  overflow: auto;
+button, input, select, textarea {
+  margin: 0;
 }
 
-/* thnx ivannikolic! www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
-.ie6 legend, .ie7 legend {
-  margin-left: -7px;
+ul {
+  list-style: none;
 }
 
-/* thnx ivannikolic! */
-/* align checkboxes, radios, text inputs with their label
-   by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
-input[type="radio"] {
-  vertical-align: text-bottom;
+blockquote, q {
+  quotes: none;
 }
 
-input[type="checkbox"] {
-  vertical-align: bottom;
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
 }
 
-.ie7 input[type="checkbox"] {
+a {
+  margin: 0;
+  padding: 0;
   vertical-align: baseline;
 }
 
-.ie6 input {
-  vertical-align: text-bottom;
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
-/* hand cursor on clickable input elements */
-label, input[type=button], input[type=submit], button {
-  cursor: pointer;
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
 
-/* colors for form validity */
-input:invalid, textarea:invalid {
-  border-radius: 1px;
-  -moz-box-shadow: 0px 0px 5px red;
-  -webkit-box-shadow: 0px 0px 5px red;
-  box-shadow: 0px 0px 5px red;
+del {
+  text-decoration: line-through;
 }
 
-.no-boxshadow input:invalid,
-.no-boxshadow textarea:invalid {
-  background-color: #f0dddd;
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
-/* These selection declarations have to be separate.
-   No text-shadow: twitter.com/miketaylr/status/12228805301 
-   Also: hot pink. */
-::-moz-selection {
-  background: #000bff;
-  color: #fff;
-  text-shadow: none;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-::selection {
-  background: #000bff;
-  color: #fff;
-  text-shadow: none;
+/* tables still need cellspacing="0" in the markup */
+input, select {
+  vertical-align: middle;
 }
 
-/*  j.mp/webkit-tap-highlight-color */
-a:link {
-  -webkit-tap-highlight-color: #000bff;
-}
-
-/* make buttons play nice in IE:    
-   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
-button {
-  width: auto;
-  overflow: visible;
-}
-
-/* bicubic resizing for non-native sized IMG: 
-   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
-.ie7 img {
-  -ms-interpolation-mode: bicubic;
-}
-
+/* END RESET CSS */
 /* Primary Styles
    Author: guiMachiavelli
 */
 html {
-  font: 0.61111 Monaco, Courier, monospace;
+  font: 12px Monaco, Courier, monospace;
+  line-height: 18px;
 }
 
 body, select, input, textarea {
@@ -395,13 +372,17 @@ a {
 }
 a:hover {
   background: white url(../imgs/hover.gif) repeat 0 0;
+  text-decoration: none;
 }
 a.reply {
   color: #cccccc;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "IM Fell Great Primer", Georgia, serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  font-family: 'IM Fell Great Primer', Georgia, serif;
 }
 
 p {
@@ -410,21 +391,21 @@ p {
 }
 
 #wrap {
-  margin: 54px auto;
-  width: 430px;
+  margin: 40px auto;
+  width: 493px;
 }
 
+#intro {
+  height: 72px;
+}
 #intro h1 {
   font-size: 2.41666667em;
+  display: inline;
   line-height: 36px;
 }
 #intro h2 {
-  font-family: Monaco, Inconsolata, Courier, monospace;
-}
-#intro h2 a {
   font-family: "IM Fell Great Primer", Georgia, serif;
   font-size: 1.25em;
-  line-height: 18px;
 }
 #intro aside {
   display: inline;
@@ -445,12 +426,11 @@ dt {
 }
 
 .menu {
-  position: absolute;
-  width: 430px;
+  position: fixed;
   top: 0;
+  left: 0;
 }
 .menu li {
-  float: left;
   margin-right: 42px;
   background: #000bff;
   padding: 10px;
@@ -460,9 +440,6 @@ dt {
 }
 .menu li a:hover {
   color: #000bff;
-}
-.menu li:last-child {
-  margin: 0;
 }
 
 #main {

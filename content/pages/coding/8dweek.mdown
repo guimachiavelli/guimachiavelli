@@ -1,0 +1,22 @@
+Date: 2009-02-10
+Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/8dweek/site0.jpg
+Categories: coding
+
+# 8 Days a Week (2012)
+
+A news site focused in the cultural life of [Porto Alegre][map], publishing medium-sized articles on cinema, dance, theater, music, cuisine and literature. 
+
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/8dweek/site3.jpg)][link-site]
+
+My role was mainly as the developer (both back- and front-end), besides a shared responsibility with Juliano Marchese on the design. The editor of the site is Emily Canto Nunes.
+
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/8dweek/site1.jpg)][link-site]
+
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/8dweek/site2.jpg)][link-site]
+
+Developed originally in 2010, it was published only in 2012 due to funding problems. The site itself is based on Wordpress, plus the usual HTML/CSS/JS+Jquery.
+
+
+[link-site]:http://8dweek.com.br
+[map]: https://maps.google.com/maps?q=porto+alegre&hl=it&ll=10.833306,-27.246094&spn=118.701464,166.992188&sll=37.0625,-95.677068&sspn=58.555544,83.496094&t=k&hnear=Porto+Alegre+-+Rio+Grande+do+Sul,+Brasile&z=3
+

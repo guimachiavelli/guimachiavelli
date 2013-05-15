@@ -1,5 +1,0 @@
-# Front-End Development
-
-The Thing That Happen on the Browser.
-
-HTML (in all its flavours), CSS (lately with SASS and Compass), Javascript (also with Jquery)

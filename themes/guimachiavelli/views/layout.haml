@@ -11,7 +11,7 @@
     %link{ :href => url("http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer&subset=latin,latin-ext"), :rel => "stylesheet"}
 
     <!--[if ! lte IE 6]><!-->
-    %link{ :href => url("/#{Nesta::Config.theme}/css/layout.css"), :media => "screen", :rel => "stylesheet"}
+    %link{ :href => url("/#{Nesta::Config.theme}/css/layout.css"), :media => "all", :rel => "stylesheet"}
     <!--<![endif]-->
     /[if lte IE 6]
       %link(rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection")
@@ -21,13 +21,12 @@
     %link(href="/articles.xml" rel="alternate" type="application/atom+xml")
 
   %body
-    %section#wrap
+    
+    = haml :sidebar, :layout => false
+    
+    #wrap
 
       = haml :header, :layout => false
 
       = yield
-
-       
-      
-
      

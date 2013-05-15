@@ -1,21 +1,12 @@
 // ---------------------------------------------------------------------------
 // Imports
 
-@import "susy";
 
 // ---------------------------------------------------------------------------
 // Basic Grid
 
-$total-columns  : 12;
-$column-width   : 4em;
-$gutter-width   : 1em;
-$grid-padding   : 5%;
-$container-style: fluid;
-
-$show-grid-backgrounds: true;
-
 //typography vars
-$default-fsize: 11px;
+$default-fsize: 12px;
 $baseline: 18px;
 
 $display-font: 'IM Fell Great Primer', Georgia, serif;
@@ -23,4 +14,11 @@ $display-font: 'IM Fell Great Primer', Georgia, serif;
 //color vars
 $main-color: #000bff;
 $text-color: #3a3333;
+
+@mixin display-font ($size: $default-fsize, $line: $baseline*1.5) {
+	font-weight: 400;
+	font-size: $size;
+	line-height: $line;
+	font-family: 'IM Fell Great Primer', Georgia, serif;
+}
 

@@ -1,0 +1,10 @@
+Date: 2011-01-10
+Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill7.jpg
+Categories: coding, design
+Flags: draft
+
+# Bacchi (2013)
+
+Bacchi is a premium coffee webshop and distributor. David Kulen designed the site and I did the front-end coding.
+
+The is was my fourth and last project through Enbiun.

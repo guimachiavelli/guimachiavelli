@@ -1,0 +1,8 @@
+Date: 2011-01-10
+Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill7.jpg
+Categories: coding, design
+Flags: draft
+
+# Watergun (2012)
+
+Watergun is a London-based motion graphics studio, specializing in commercials, branded content, music videos and film. They provided me with the page designs, which I then made into a wordpress-powered site.
