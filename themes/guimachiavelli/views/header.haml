@@ -3,13 +3,8 @@
         %a(href="/") guiMachiavelli
 
     %aside
-        %ul
-            %li
-                %a(title="twitter" href="http://twitter.com/guimachiavelli") t
-                %a(title="behance" href="http://behance.net/guimachiavelli") b
-                %a(title="flickr" href="http://flickr.com/guimachiavelli") f
-
         %a(href="mailto:heygui@boun.cr") heygui@boun.cr
-    
-    %h2 hey! I'm mostly a front-end developer! Here are some of the projects I worked on.
+
+    - if ! @menu_items.empty?
+        - display_menu(@menu_items, :class => "menu")
 

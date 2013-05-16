@@ -1,4 +1,5 @@
 @import "partials/head";
+@import "compass";
 @import "partials/reset";
 
  /* Primary Styles
@@ -15,11 +16,10 @@ body, select, input, textarea {
 
 a { 
 	color: $main-color;
-	display: inline;
 	text-decoration: none;
 
 	&:hover { 
-		background: white url(../imgs/hover.gif) repeat 0 0;
+		background: white url(https://dl.dropboxusercontent.com/u/5229171/portfolio/assets/hover.gif) repeat -100px 0;
 		text-decoration: none;
 	}
 
@@ -30,17 +30,22 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 { @include display-font; }
-
 p { font-size: 0.83333333em; line-height: $baseline; }
 
 
 #wrap {
 	margin: 40px auto;
-	width: 493px;
+	width: 94%;
+	padding: 2%;
 }
 
 #intro {
-	height: $baseline*4;
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+
 	h1 { 
 		font-size: 2.41666667em;
 		display: inline;
@@ -51,52 +56,35 @@ p { font-size: 0.83333333em; line-height: $baseline; }
 		font-family: $display-font;
 		font-size: 1.25em;
 	}
-
-	aside { 
+	aside {
 		display: inline;
-
-		* { display: inline }
 	}
 	
-	li a { border: 1px solid #827B7B; padding: 2px 5px; vertical-align: 5px}
-}
-
-dt { 
-	font-family: $display-font; 
-	font-size: 1.25em; 
-	line-height: $baseline 	
 }
 
 .menu {
-	position: fixed;
-	top: 0;
-	left: 0;
+	float: right;
 
 	li {
-		
-		margin-right: 42px;
 		background: $main-color;
 		padding: 10px;
+		float: left;
 
 		a { color: #fff }
 		a:hover { color: $main-color }
-
-		
 	}
-}
-
-
-#main { 
-	width: 493px; 
-	margin-top: 42px; 
-	position: relative;
 }
 
 .post {
 	clear: both;
-	margin-bottom: 68px;
+	margin-bottom: 30em;
 
 	header { margin-bottom: 22px }
+
+	footer {
+		width: 50%;
+		margin: 0 auto;
+	}
 
 	h1, h2, .titulo { 
 		font-size: 128px; 
@@ -104,14 +92,42 @@ dt {
 		a { color:#3a3333 }
 	}
 
-	figure { text-align: center }
+	figure { 
+		text-align: center;
+		width: 100%;
+	}
 
 	&:first-child { margin-top: -2px }
-	&.archive {	margin-bottom: 0 !important	}
+
+
 	&.home figure {
-		width: 493px;
+		
 		margin-top: -5px;
+		
+		&.site {
+			border: 3px solid #000bff;
+			line-height: 0;
+			@include box-sizing(border-box);
+
+			&:before {
+				content: '⊗ ⊝ ⊕';
+				color: #000bff;
+				font-size: 1.8em;
+				text-align: left;
+				padding-left: 2%;
+				display: block;
+				width: 98%;
+				height: 25px;
+				border-bottom: 3px solid #000bff;
+				line-height: 1;
+			}
+
+		}		
 	}
+
+		img {
+			width: 100%;
+		}
 
 
 	/* single project page */
@@ -132,11 +148,6 @@ dt {
 
 	
 
-	.single figure img {
-		display: inline;
-		line-height: 18px;
-		margin: 0 0 14px 0
-	}
 
 	.single figure>* {
 		line-height: 18px;

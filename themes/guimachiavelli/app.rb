@@ -26,6 +26,7 @@ module Nesta
         convert_to_html(nil, nil, nil)
       end
     end
+
   end
 
 
@@ -46,7 +47,7 @@ module Nesta
         request.url
       end
 
-      def latest_articles(count = 50)
+      def latest_articles(count = 100)
         Nesta::Page.find_articles[0..count - 1]
       end
 

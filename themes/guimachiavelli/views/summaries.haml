@@ -2,7 +2,7 @@
   - pages.each do |page|
     - unless page.flagged_as?('other') || page.flagged_as?('draft')
       %article(class="home post")
-        %figure
+        %figure(class="#{page.metadata('flags')}")
           - unless page.thumbnail.nil? || page.thumbnail.empty?
             %a(href="#{page.abspath}")
               %img(src="#{page.thumbnail}")

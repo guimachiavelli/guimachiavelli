@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* =============================================================================
    HTML5 Boilerplate CSS: h5bp.com/css
    ========================================================================== */
@@ -367,11 +368,10 @@ body, select, input, textarea {
 
 a {
   color: #000bff;
-  display: inline;
   text-decoration: none;
 }
 a:hover {
-  background: white url(../imgs/hover.gif) repeat 0 0;
+  background: white url(https://dl.dropboxusercontent.com/u/5229171/portfolio/assets/hover.gif) repeat -100px 0;
   text-decoration: none;
 }
 a.reply {
@@ -392,11 +392,16 @@ p {
 
 #wrap {
   margin: 40px auto;
-  width: 493px;
+  width: 94%;
+  padding: 2%;
 }
 
 #intro {
-  height: 72px;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 #intro h1 {
   font-size: 2.41666667em;
@@ -410,30 +415,14 @@ p {
 #intro aside {
   display: inline;
 }
-#intro aside * {
-  display: inline;
-}
-#intro li a {
-  border: 1px solid #827B7B;
-  padding: 2px 5px;
-  vertical-align: 5px;
-}
-
-dt {
-  font-family: "IM Fell Great Primer", Georgia, serif;
-  font-size: 1.25em;
-  line-height: 18px;
-}
 
 .menu {
-  position: fixed;
-  top: 0;
-  left: 0;
+  float: right;
 }
 .menu li {
-  margin-right: 42px;
   background: #000bff;
   padding: 10px;
+  float: left;
 }
 .menu li a {
   color: #fff;
@@ -442,19 +431,17 @@ dt {
   color: #000bff;
 }
 
-#main {
-  width: 493px;
-  margin-top: 42px;
-  position: relative;
-}
-
 .post {
   clear: both;
-  margin-bottom: 68px;
+  margin-bottom: 30em;
   /* single project page */
 }
 .post header {
   margin-bottom: 22px;
+}
+.post footer {
+  width: 50%;
+  margin: 0 auto;
 }
 .post h1, .post h2, .post .titulo {
   font-size: 128px;
@@ -465,16 +452,35 @@ dt {
 }
 .post figure {
   text-align: center;
+  width: 100%;
 }
 .post:first-child {
   margin-top: -2px;
 }
-.post.archive {
-  margin-bottom: 0 !important;
-}
 .post.home figure {
-  width: 493px;
   margin-top: -5px;
+}
+.post.home figure.site {
+  border: 3px solid #000bff;
+  line-height: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.post.home figure.site:before {
+  content: '⊗ ⊝ ⊕';
+  color: #000bff;
+  font-size: 1.8em;
+  text-align: left;
+  padding-left: 2%;
+  display: block;
+  width: 98%;
+  height: 25px;
+  border-bottom: 3px solid #000bff;
+  line-height: 1;
+}
+.post img {
+  width: 100%;
 }
 .post.single header {
   margin: 10px 0 -7px 0;
@@ -496,11 +502,6 @@ dt {
 }
 .post.single section {
   margin: 6px 0 12px 0;
-}
-.post .single figure img {
-  display: inline;
-  line-height: 18px;
-  margin: 0 0 14px 0;
 }
 .post .single figure > * {
   line-height: 18px;
