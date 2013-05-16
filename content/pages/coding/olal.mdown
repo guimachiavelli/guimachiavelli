@@ -7,6 +7,7 @@ Categories: coding
 A short two week, just-for-fun project done in collaboration with [Joseph Ernst][link-collab1], portuguese/english filmmaker and art director. Joseph had a very simple idea of having people record themselves singing their national anthems as fast as they could, competing to see who could sing it the fastest.
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/olympicanthems/site2.jpg)][link-site]
+
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/olympicanthems/site1.jpg)][link-site]
 
 My role here was mostly the coder, running to get the site up in one week while working full-time on a few other projects. It was an interesting challenge to make the connection with YouTube's API and getting all the details to a workable state.
