@@ -2,4 +2,4 @@ other/about
 coding
 design
 illustration
-labs
+personal

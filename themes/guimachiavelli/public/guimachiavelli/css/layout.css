@@ -355,15 +355,18 @@ input, select {
 /* Primary Styles
    Author: guiMachiavelli
 */
+* html {
+  font-size: 75%;
+}
+
 html {
-  font: 12px Monaco, Courier, monospace;
-  line-height: 18px;
+  font-size: 12px;
+  line-height: 1.41667em;
 }
 
 body, select, input, textarea {
   color: #3a3333;
   font-family: Monaco, Inconsolata, Courier, monospace;
-  font-size: 1em;
 }
 
 a {
@@ -374,37 +377,39 @@ a:hover {
   background: white url(https://dl.dropboxusercontent.com/u/5229171/portfolio/assets/hover.gif) repeat -100px 0;
   text-decoration: none;
 }
-a.reply {
-  color: #cccccc;
-}
 
 #wrap {
   margin: 0 auto;
   width: 94%;
-  padding: 2%;
 }
 
 #intro {
-  width: 94%;
-  padding: 0 2%;
+  width: 100%;
   overflow: hidden;
+  margin: 2.83333em 0;
+  position: relative;
+}
+#intro hgroup {
+  float: left;
 }
 #intro h1 {
   font-family: "IM Fell Great Primer", Georgia, serif;
-  font-size: 2.41666667em;
   display: inline;
-  line-height: 36px;
-}
-#intro h2 {
-  font-family: "IM Fell Great Primer", Georgia, serif;
-  font-size: 1.25em;
+  font-size: 2.5em;
+  line-height: 1.13333em;
 }
 
 .menu {
-  float: right;
+  position: absolute;
+  width: 300px;
+  height: 2.83333em;
+  right: 0;
+  vertical-align: bottom;
 }
-.menu li a:hover {
-  color: #000bff;
+.menu li {
+  display: inline-block;
+  margin-left: 5px;
+  line-height: 3.54167em;
 }
 
 .post {
@@ -415,12 +420,12 @@ a.reply {
   margin-bottom: 22px;
 }
 .post footer {
-  width: 50%;
-  margin: 0 auto;
+  text-align: right;
 }
 .post h1, .post h2, .post .titulo {
   font-size: 3em;
-  line-height: 126px;
+  line-height: 1.41667em;
+  margin: 2.83333em 0 1.41667em 0;
 }
 .post h1 a, .post h2 a, .post .titulo a {
   color: #3a3333;
@@ -458,33 +463,11 @@ a.reply {
   line-height: 1;
 }
 .post.single p {
-  width: 30%;
+  width: 35%;
+  margin-bottom: 4.25em;
 }
 .post.single img {
-  width: 230%;
-}
-
-footer {
-  text-align: right;
-}
-
-/* post tags */
-.post footer li {
-  display: inline;
-  border-left: 1px solid #827B7B;
-  padding-left: 7px;
-  font-size: 10px;
-}
-
-.post footer li:first-child {
-  border: 0;
-  padding: 0;
-}
-
-#tag-title {
-  font-size: 36px;
-  text-transform: capitalize;
-  margin-bottom: 18px;
+  width: 210%;
 }
 
 /*

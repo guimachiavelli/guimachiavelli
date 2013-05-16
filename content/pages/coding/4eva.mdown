@@ -1,20 +1,25 @@
 Date: 2011-02-10
 Thumbnail: http://lovemessageservice.com/sms/girl_2.gif
 Categories: coding
-aTemplate: single
 
 # 4EVA (2012)
 
 Project realized in collaboration with [Pinar&Viola][link-collab1]. The idea started after being commissioned by phone-expo.nl on creating a project around cellphones and the theme "Hey! How are you?" Thinking about how exaggeratedly perfect – surpassing stepfordian levels – are the virtual girlfriends and boyfriends one can usually find on the internet, we created a message service that delivers intimate pictures and texts from a perfect lover.
 
 
-[![](http://lovemessageservice.com/sms/girl_1.gif)][link-site] [![](http://lovemessageservice.com/sms/boy_16.gif)][link-site] [![](http://lovemessageservice.com/sms/boy_18.gif)][link-site]
+[![](http://lovemessageservice.com/sms/girl_1.gif)][link-site] 
+
+[![](http://lovemessageservice.com/sms/boy_16.gif)][link-site] 
+
+[![](http://lovemessageservice.com/sms/boy_18.gif)][link-site]
 
 
 Besides helping with the concept and research, I was in charge of writing the copy, programming the message sending system and providing emotional support to all involved. The images, instead, were created by [Pinar&Viola][link-collab1].
 
 [![](http://lovemessageservice.com/sms/girl_10.gif)][link-site]
+
 [![](http://lovemessageservice.com/sms/girl_25.gif)][link-site]
+
 [![](http://lovemessageservice.com/sms/boy_25.gif)][link-site]
 
 Initially thought to work as only SMSes in The Netherlands, we expanded the project to work also by e-mail.

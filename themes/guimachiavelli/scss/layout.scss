@@ -1,17 +1,17 @@
-@import "partials/head";
 @import "compass";
 @import "partials/reset";
+@import "partials/head";
 
  /* Primary Styles
     Author: guiMachiavelli
  */ 
 
-html { font: $default-fsize Monaco, Courier, monospace; line-height: $baseline }
+@include establish-baseline;
+
 
 body, select, input, textarea {
 	color: $text-color; 
 	font-family: Monaco, Inconsolata, Courier, monospace;
-	font-size: 1em;
 }
 
 a { 
@@ -23,47 +23,42 @@ a {
 		text-decoration: none;
 	}
 
-	&.reply { 
-		color: #ccc 
-	}
-
 }
 
 
 #wrap {
 	margin: 0 auto;
 	width: 94%;
-	padding: 2%;
 }
 
 #intro {
-	width: 94%;
-	padding: 0 2%;
+	width: 100%;
 	overflow: hidden;
+	margin: rhythm(2) 0;
+	position: relative;
+
+	hgroup {
+		float: left;
+	}
 
 	h1 { 
 		font-family: $display-font;
-		font-size: 2.41666667em;
 		display: inline;
-		line-height: $baseline*2;
-	}
-
-	h2 {
-		font-family: $display-font;
-		font-size: 1.25em;
+		@include adjust-font-size-to(30px);
 	}
 	
 }
 
 .menu {
-	float: right;
-
+	position: absolute;
+	width: 300px;
+	height: rhythm(2);
+	right: 0;
+	vertical-align: bottom;
 	li {
-		
-
-		a { 
-			&:hover { color: $main-color }
-		}
+		display: inline-block;
+		margin-left: 5px;
+		line-height: rhythm(2.5);
 	}
 }
 
@@ -74,18 +69,13 @@ a {
 	header { margin-bottom: 22px }
 
 	footer {
-		width: 50%;
-		margin: 0 auto;
+		text-align: right;
 	}
 
 	h1, h2, .titulo { 
-		font-size: 3em; 
-		line-height: 126px;
+		@include adjust-font-size-to(36px);
+		margin: rhythm(2) 0 rhythm() 0;
 		a { color:#3a3333 }
-	}
-
-	p {
-		
 	}
 
 	figure { 
@@ -94,8 +84,6 @@ a {
 		img {
 			width: 100%;
 		}
-
-
 	}
 
 
@@ -128,35 +116,15 @@ a {
 
 	&.single {
 		p {
-			width: 30%;
+			width: 35%;
+			margin-bottom: rhythm(3);
 		}
 		img {
-			width: 230%;
+			width: 210%;
 		}
 	}
 
 }
-
-footer { text-align: right }
-
-
-
-
-/* post tags */
-
-.post footer li {
-	display: inline;
-	border-left: 1px solid #827B7B;
-	padding-left: 7px;
-	font-size: 10px
-}
-
-.post footer li:first-child { border:0; padding: 0 }
-
-
-
-#tag-title { font-size: 36px; text-transform: capitalize; margin-bottom: 18px }
-
 
 /*
  * Media queries for responsive design

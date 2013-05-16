@@ -1,7 +1,8 @@
 %header#intro
-    %h1
-        %a(href="/") gui machiavelli
-    %a(href="mailto:heygui@boun.cr") heygui@boun.cr
+    %hgroup
+        %h1
+            %a(href="/") gui machiavelli
+        %a(href="mailto:heygui@boun.cr") heygui@boun.cr
 
     - if ! @menu_items.empty?
         - display_menu(@menu_items, :class => "menu")

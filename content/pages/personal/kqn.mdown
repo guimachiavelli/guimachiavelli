@@ -1,19 +1,23 @@
 Date: 2011-01-10
 Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/kqn/kqn1.jpg
-Categories: labs, design
+Categories: personal
 
 # KQN (2011)
 
 Identity and site concepts for an art project by Gerhard Blum and Ulf Eriksson. The project would work as a site that would have little original content and would instead display uncredited news from sources as disparate as Fox News and Al Jazeera, hoping to show the façade of ideology in every news story. The identity system I designed did the same, but with the corporation's logos.
 
 ![](http://dl.dropbox.com/u/5229171/portfolio/images/kqn/kqn1.jpg)
+
 ![](http://dl.dropbox.com/u/5229171/portfolio/images/kqn/mosaic1.jpg)
 
 The system allowed for an infinite recombination of tiles, as well as the possibility of adding more corporations's logos. It also allowed to recombine pictures of news events.
 
 ![](http://dl.dropbox.com/u/5229171/portfolio/images/kqn/kqn-lettering.jpg)
+
 ![](http://dl.dropbox.com/u/5229171/portfolio/images/kqn/kqn-example.jpg)
+
 ![](http://dl.dropbox.com/u/5229171/portfolio/images/kqn/kqn-posterimpression.jpg)
+
 ![](http://dl.dropbox.com/u/5229171/portfolio/images/kqn/kqn-site.jpg)
 
 The identity and the site were rejected by the client and the art project is mostly dormant as of mid-2011. Which is a shame, because I really liked the idea. Bummer.
