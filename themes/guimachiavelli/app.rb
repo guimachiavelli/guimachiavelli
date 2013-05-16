@@ -16,6 +16,11 @@ module Nesta
       metadata('project link')
     end
 
+    def the_post (scope = nil)
+        template = Tilt[@format].new { body_markup }
+        template.render(scope)
+    end
+
   end
   
 
@@ -61,6 +66,10 @@ module Nesta
         end
       end
 
+      def single_article(articles)
+        haml(:single, :layout => false, :locals => { :pages => articles })
+      end
+
       def articles_heading
         @page.metadata('articles heading') || "Projects on #{@page.heading}"
       end
@@ -75,7 +84,7 @@ module Nesta
       cache sass(params[:sheet].to_sym, Compass.sass_engine_options)
     end
 
- #   Tilt.prefer Tilt::KramdownTemplate
+    Tilt.prefer Tilt::KramdownTemplate
 
   end
 end

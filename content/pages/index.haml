@@ -1,1 +1,5 @@
-%section.articles= article_summaries(latest_articles)
+- if @page.index_page?
+  %section.articles= article_summaries(latest_articles)
+
+  
+  

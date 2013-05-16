@@ -29,24 +29,20 @@ a {
 
 }
 
-h1, h2, h3, h4, h5, h6 { @include display-font; }
-p { font-size: 0.83333333em; line-height: $baseline; }
-
 
 #wrap {
-	margin: 40px auto;
+	margin: 0 auto;
 	width: 94%;
 	padding: 2%;
 }
 
 #intro {
-	width: 100%;
+	width: 94%;
+	padding: 0 2%;
 	overflow: hidden;
-	position: fixed;
-	top: 0;
-	right: 0;
 
 	h1 { 
+		font-family: $display-font;
 		font-size: 2.41666667em;
 		display: inline;
 		line-height: $baseline*2;
@@ -56,9 +52,6 @@ p { font-size: 0.83333333em; line-height: $baseline; }
 		font-family: $display-font;
 		font-size: 1.25em;
 	}
-	aside {
-		display: inline;
-	}
 	
 }
 
@@ -66,12 +59,11 @@ p { font-size: 0.83333333em; line-height: $baseline; }
 	float: right;
 
 	li {
-		background: $main-color;
-		padding: 10px;
-		float: left;
+		
 
-		a { color: #fff }
-		a:hover { color: $main-color }
+		a { 
+			&:hover { color: $main-color }
+		}
 	}
 }
 
@@ -87,21 +79,30 @@ p { font-size: 0.83333333em; line-height: $baseline; }
 	}
 
 	h1, h2, .titulo { 
-		font-size: 128px; 
+		font-size: 3em; 
 		line-height: 126px;
 		a { color:#3a3333 }
+	}
+
+	p {
+		
 	}
 
 	figure { 
 		text-align: center;
 		width: 100%;
+		img {
+			width: 100%;
+		}
+
+
 	}
+
 
 	&:first-child { margin-top: -2px }
 
 
 	&.home figure {
-		
 		margin-top: -5px;
 		
 		&.site {
@@ -122,38 +123,17 @@ p { font-size: 0.83333333em; line-height: $baseline; }
 				line-height: 1;
 			}
 
-		}		
-	}
-
-		img {
-			width: 100%;
 		}
-
-
-	/* single project page */
-
-	&.single header { margin: 10px 0 -7px 0 }
-	&.single h1 { font-size: 47px; line-height: 54px }
-	&.single p { margin-bottom: 18px }
-
-	&.single footer { margin-bottom: 13px }
-
-	&.single section, &.single footer, figcaption {
-		width: 493px;
-		text-align: left;
-		margin-left: 0;
 	}
 
-	&.single section { margin: 6px 0 12px 0 }
-
-	
-
-
-	.single figure>* {
-		line-height: 18px;
-		margin: 0 0 14px 0 
+	&.single {
+		p {
+			width: 30%;
+		}
+		img {
+			width: 230%;
+		}
 	}
-
 
 }
 
@@ -175,27 +155,8 @@ footer { text-align: right }
 
 
 
-
-.pagination li {float: left; margin-left: 1em }
-.pagination li .active a {color: #ccc }
-.pagination li:first-child {margin:0}
-
 #tag-title { font-size: 36px; text-transform: capitalize; margin-bottom: 18px }
 
-
-/* CV Page */
-dt, dd { padding: 0 2.5% }
-
-dt {
-	margin-top: $baseline;
-	color: #000bff;
-	border-top: 1px solid #eee;
-	padding-top: 17px
-}
-
-.cv dd {
-	margin-bottom: 18px
-}
 
 /*
  * Media queries for responsive design

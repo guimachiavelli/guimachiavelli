@@ -1,5 +1,6 @@
-~ @page.to_html(self)
+- if @page.index_page? 
+  ~ @page.to_html(self)
+- else
+  %article.post.single
+    = @page.to_html(self)
 
-- unless @page.articles.empty?
-  %section.articles
-    = article_summaries(@page.articles)
