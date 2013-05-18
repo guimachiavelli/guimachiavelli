@@ -6,32 +6,8 @@
 // Basic Grid
 
 //typography vars
-$default-fsize: 12px;
-$baseline: 18px;
-
-$display-font: 'IM Fell Great Primer', Georgia, serif;
-
-//color vars
-$main-color: #000bff;
-$text-color: #3a3333;
-
-@mixin display-font ($size: $default-fsize, $line: $baseline*1.5) {
-	font-weight: 400;
-	font-size: $size;
-	line-height: $line;
-	font-family: 'IM Fell Great Primer', Georgia, serif;
-}
-
-// ---------------------------------------------------------------------------
-// Imports
-
-
-// ---------------------------------------------------------------------------
-// Basic Grid
-
-//typography vars
 $base-font-size: 12px;
-$base-line-height: 17px;
+$base-line-height: 18px;
 
 $display-font: 'IM Fell Great Primer', Georgia, serif;
 

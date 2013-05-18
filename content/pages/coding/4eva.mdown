@@ -7,20 +7,25 @@ Categories: coding
 Project realized in collaboration with [Pinar&Viola][link-collab1]. The idea started after being commissioned by phone-expo.nl on creating a project around cellphones and the theme "Hey! How are you?" Thinking about how exaggeratedly perfect – surpassing stepfordian levels – are the virtual girlfriends and boyfriends one can usually find on the internet, we created a message service that delivers intimate pictures and texts from a perfect lover.
 
 
-[![](http://lovemessageservice.com/sms/girl_1.gif)][link-site] 
+> [![](http://lovemessageservice.com/sms/girl_1.gif)][link-site] 
+> sexy ass eyes ♥ sexy ass legs ♥ sexy ass ass ♥ UR FUCKIN BEUTIFUL ! kissKISS
 
-[![](http://lovemessageservice.com/sms/boy_16.gif)][link-site] 
+> [![](http://lovemessageservice.com/sms/boy_16.gif)][link-site] 
+> i just nEeda mAKe iTt cLeAr >>  U know l luv u ! kiSsYkiss buHbYe luvV
 
-[![](http://lovemessageservice.com/sms/boy_18.gif)][link-site]
-
+> [![](http://lovemessageservice.com/sms/boy_18.gif)][link-site]
+> heyyy I miss you my softskin toy *limitedediton* :)
 
 Besides helping with the concept and research, I was in charge of writing the copy, programming the message sending system and providing emotional support to all involved. The images, instead, were created by [Pinar&Viola][link-collab1].
 
-[![](http://lovemessageservice.com/sms/girl_10.gif)][link-site]
+> [![](http://lovemessageservice.com/sms/girl_10.gif)][link-site]
+> I wuld like 2 b a tear, born in ur eys, livin in ur cheeks n dieing on ur lips. XIoxOX
 
-[![](http://lovemessageservice.com/sms/girl_25.gif)][link-site]
+> [![](http://lovemessageservice.com/sms/girl_25.gif)][link-site]
+> I have a long hair, a sexy lips, two long hands, two long legs, two beautiful eyes. n a small heart that contains a big love for u ♥
 
-[![](http://lovemessageservice.com/sms/boy_25.gif)][link-site]
+> [![](http://lovemessageservice.com/sms/boy_25.gif)][link-site]
+> Unda da covers my legs touching your legs,feet on my feet,,my body on your body. \<3
 
 Initially thought to work as only SMSes in The Netherlands, we expanded the project to work also by e-mail.
 

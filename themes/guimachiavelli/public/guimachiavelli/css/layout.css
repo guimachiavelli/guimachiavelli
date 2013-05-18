@@ -361,7 +361,7 @@ input, select {
 
 html {
   font-size: 12px;
-  line-height: 1.41667em;
+  line-height: 1.5em;
 }
 
 body, select, input, textarea {
@@ -378,6 +378,10 @@ a:hover {
   text-decoration: none;
 }
 
+p {
+  -webkit-font-smoothing: none;
+}
+
 #wrap {
   margin: 0 auto;
   width: 94%;
@@ -386,7 +390,7 @@ a:hover {
 #intro {
   width: 100%;
   overflow: hidden;
-  margin: 2.83333em 0;
+  margin: 3em 0;
   position: relative;
 }
 #intro hgroup {
@@ -396,20 +400,27 @@ a:hover {
   font-family: "IM Fell Great Primer", Georgia, serif;
   display: inline;
   font-size: 2.5em;
-  line-height: 1.13333em;
+  line-height: 1.2em;
+}
+#intro h1 a {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+#intro a {
+  -webkit-font-smoothing: none;
 }
 
 .menu {
   position: absolute;
   width: 315px;
-  height: 2.83333em;
+  height: 3em;
   right: 0;
   vertical-align: bottom;
+  -webkit-font-smoothing: none;
 }
 .menu li {
   display: inline-block;
   margin-left: 5px;
-  line-height: 3.54167em;
+  line-height: 3.75em;
 }
 
 .post {
@@ -421,11 +432,12 @@ a:hover {
 }
 .post footer {
   text-align: right;
+  -webkit-font-smoothing: none;
 }
 .post h1, .post h2, .post .titulo {
   font-size: 3em;
-  line-height: 1.41667em;
-  margin: 2.83333em 0 1.41667em 0;
+  line-height: 1.5em;
+  margin: 3em 0 1.5em 0;
 }
 .post h1 a, .post h2 a, .post .titulo a {
   color: #3a3333;
@@ -439,9 +451,6 @@ a:hover {
 }
 .post blockquote {
   font-style: italic;
-}
-.post:first-child {
-  margin-top: -2px;
 }
 .post.home figure {
   margin-top: -5px;
@@ -469,7 +478,7 @@ a:hover {
 }
 .post.single p {
   width: 35%;
-  margin-bottom: 4.25em;
+  margin-bottom: 4.5em;
 }
 .post.single img {
   width: 210%;
@@ -524,20 +533,6 @@ a:hover {
   /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
      j.mp/textsizeadjust 
   html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
-}
-@media only screen and (max-device-width: 768px) {
-  .post {
-    padding: 0 2.5% 6px 2.5%;
-  }
-
-  .post.texts, .post.drawings, .post.projects {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .post.first {
-    margin-left: 0;
-  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   body, select, input, textarea {

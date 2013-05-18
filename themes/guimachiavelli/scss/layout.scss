@@ -25,6 +25,9 @@ a {
 
 }
 
+p {
+	-webkit-font-smoothing: none;
+}
 
 #wrap {
 	margin: 0 auto;
@@ -45,6 +48,12 @@ a {
 		font-family: $display-font;
 		display: inline;
 		@include adjust-font-size-to(30px);
+		a { -webkit-font-smoothing: subpixel-antialiased; }
+	
+	}
+
+	a {
+		-webkit-font-smoothing: none;
 	}
 	
 }
@@ -60,6 +69,7 @@ a {
 		margin-left: 5px;
 		line-height: rhythm(2.5);
 	}
+	-webkit-font-smoothing: none;
 }
 
 .post {
@@ -70,6 +80,7 @@ a {
 
 	footer {
 		text-align: right;
+		-webkit-font-smoothing: none;
 	}
 
 	h1, h2, .titulo { 
@@ -89,9 +100,6 @@ a {
 	blockquote {
 		font-style: italic;
 	}
-
-
-	&:first-child { margin-top: -2px }
 
 
 	&.home figure {
@@ -194,19 +202,6 @@ a {
 
 @media only screen and (max-device-width: 768px) {
 
-	.post {
-		padding: 0 2.5% 6px 2.5%;
-	}
-	
-	.post.texts, .post.drawings, .post.projects {
-		width: 100%;
-		margin-left: 0;
-	}
-	
-	
-	.post.first {
-		margin-left: 0;
-	}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
