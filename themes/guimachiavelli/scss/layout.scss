@@ -86,6 +86,10 @@ a {
 		}
 	}
 
+	blockquote {
+		font-style: italic;
+	}
+
 
 	&:first-child { margin-top: -2px }
 
@@ -94,6 +98,7 @@ a {
 		margin-top: -5px;
 		
 		&.site {
+			position: relative;
 			border: 3px solid #000bff;
 			line-height: 0;
 			@include box-sizing(border-box);
@@ -107,6 +112,7 @@ a {
 				display: block;
 				width: 98%;
 				height: 25px;
+				background: #fff;
 				border-bottom: 3px solid #000bff;
 				line-height: 1;
 			}
@@ -122,6 +128,35 @@ a {
 		img {
 			width: 210%;
 		}
+
+		
+		.site-frame {
+			display: block;
+			width: 210%;
+			border: 3px solid #000bff;
+			line-height: 0;
+			@include box-sizing(border-box);
+
+			img {
+				width: 100%;
+			}
+
+			&:before {
+				content: '⊗ ⊝ ⊕';
+				color: #000bff;
+				font-size: 1.8em;
+				text-align: left;
+				padding-left: 2%;
+				display: block;
+				width: 98%;
+				height: 25px;
+				border-bottom: 3px solid #000bff;
+				line-height: 1;
+			}
+		
+		
+		}
+
 	}
 
 }

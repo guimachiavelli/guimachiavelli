@@ -1,7 +1,7 @@
 Date: 2009-02-10
 Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/8dweek/site0.jpg
 Categories: coding, design
-Flags: site
+Flags: site, draft
 
 # 8 Days a Week (2012)
 

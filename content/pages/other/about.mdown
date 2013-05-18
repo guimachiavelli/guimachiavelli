@@ -2,21 +2,21 @@
 
 italo-brazilian, 26 years old. 
 
-graduated in journalism in 2009 in brazil and then in digital media in 2012 at [hyper island][hyper].
+work mainly as a freelancer, but also at [pinar&viola][pv], [mobe][mundus] and [w3haus][w3].
 
-worked mainly as a freelancer, but also at [pinar&viola][pv], [mobe][mundus] and [w3haus][w3].
+graduated in journalism in 2009 in brazil and then in digital media in 2012 at [hyper island][hyper].
 
 speak fluent portuguese, english and italian plus a bit of spanish, a bit of french, a tiny wee bit of swedish.
 
 [github][github]<br>
 [instapaper rss][instapaper]<br> 
 [pinboard][pinboard]<br> 
-[images][image]<br>
+[dump][image]<br>
 
 [github]: https://github.com/guimachiavelli/
 [instapaper]: http://www.instapaper.com/rss/1380621/pAmCmwkLTg7fxpDu18xVMfgB4
 [pinboard]: http://pinboard.in/u:macki/
-[image]: http://images.guimachiavelli.com
+[image]: http://dump.guimachiavelli.com
 [pv]: http://pinar-viola.com
 [mundus]: http://mobe.com.br
 [w3]: http://w3haus.com.br

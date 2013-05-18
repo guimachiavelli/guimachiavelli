@@ -1,6 +1,7 @@
 Date: 2010-07-10
 Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/olympicanthems/site0.jpg
 Categories: coding
+Flags: draft
 
 # Olympic Anthems (2012)
 

@@ -1,6 +1,25 @@
-Date: 2011-01-10
-Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/vrd/site0.jpg
+Date: 2013-01-11
+Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/vrd/site1.jpg
 Categories: coding, design
-Flags: draft
+Flags: site
+
+# Van Rietschoten Design (2013)
+
+Site for Van Rietschoten Design, a dutch interior design studio, made in collaboration with [David Kulen][collab1]. Having been given free reign over the site, we allowed ourselves to explore our minimalist tendencies and strip the site to its bare minimum.
 
 
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/vrd/site1.jpg)][link-site]
+
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/vrd/site2.jpg)][link-site]
+
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/vrd/site3.jpg)][link-site]
+
+The whole site uses only one type size, one typeface and one weight. There are also no images besides the coat of arms and pictures of VRD's work. All icons are UTF-8 symbols.
+
+[![](http://dl.dropbox.com/u/5229171/portfolio/images/vrd/site4.jpg)][link-site]
+
+David worked mainly on the desktop design, while I programmed the whole site and adapted it for mobile devices. The coding was done with SASS, Compass, Susy, Require.js, underscore.js, jquery and Wordpress ([Github link][git]).
+
+[link-site]: http://vanrietschotendesign.nl
+[collab1]: http://dkulen.net
+[git]: http://github.com/guimachiavelli/vrd

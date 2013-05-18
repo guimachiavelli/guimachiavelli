@@ -7,13 +7,13 @@ Categories: personal
 
 I created this site which corrupts the avatars of twitter users who say "I Will". It was a conceptual exploration on how one's wishes affect one's future. Online at [http://iwill.guimachiavelli.com][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/site1.jpg)][link-site]
-
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill1.jpg)][link-site]
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill2.jpg)][link-site]
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill3.jpg)][link-site]
+
+This was created for Werkplaats Typografie and ISIA Urbino's summerschol. Our assignment was to create a project around the idea of time; we also had a jolly good time there. 
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill4.jpg)][link-site]
 
@@ -23,6 +23,8 @@ I created this site which corrupts the avatars of twitter users who say "I Will"
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill7.jpg)][link-site]
 
-This was created for Werkplaats Typografie and ISIA Urbino's summerschol. Our assignment was to create a project around the idea of time; we also had a jolly good time there. The whole thing was made in PHP (based on open-sourced code from Recyclism) plus the usual front-end stuff.
+The whole thing was made in PHP (based on open-sourced code from [Recyclism][reference1]) plus the usual front-end stuff ([Github link][git]).
 
 [link-site]:http://iwill.guimachiavelli.com
+[reference1]: http://recyclism.com
+[git]: http://github.com/guimachiavelli/i_will

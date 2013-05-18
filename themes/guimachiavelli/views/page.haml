@@ -5,6 +5,6 @@
     %section.articles
       = article_summaries(@page.articles)
   - else
-    %article.post.single
+    %article(class="post single #{@page.metadata('flags')}")
       = @page.to_html(self)
 
