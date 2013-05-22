@@ -1,4 +1,4 @@
 guimachiavelli
 ==============
 
-my personal site and my practical ruby project
+my personal site. built with nesta, published through heroku, images and etc stored at dropbox.
