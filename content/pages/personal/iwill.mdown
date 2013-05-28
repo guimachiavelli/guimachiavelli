@@ -4,8 +4,7 @@ Categories: personal
 
 # I Will (2011)
 
-
-I created this site which corrupts the avatars of twitter users who say "I Will". It was a conceptual exploration on how one's wishes affect one's future. Online at [http://iwill.guimachiavelli.com][link-site]
+I created [I Will][link-site], a site that corrupts the avatars of twitter users who say "I Will", as a conceptual exploration on how one's wishes affect one's future.
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill1.jpg)][link-site]
 
@@ -24,6 +23,8 @@ This was created for Werkplaats Typografie and ISIA Urbino's summerschol. Our as
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill7.jpg)][link-site]
 
 The whole thing was made in PHP (based on open-sourced code from [Recyclism][reference1]) plus the usual front-end stuff ([Github link][git]).
+
+Online at [http://iwill.guimachiavelli.com/][link-site].
 
 [link-site]:http://iwill.guimachiavelli.com
 [reference1]: http://recyclism.com

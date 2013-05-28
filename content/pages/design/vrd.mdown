@@ -5,7 +5,7 @@ Flags: site
 
 # Van Rietschoten Design (2013)
 
-Site for Van Rietschoten Design, a dutch interior design studio, made in collaboration with [David Kulen][collab1]. Having been given free reign over the site, we allowed ourselves to explore our minimalist tendencies and strip the site to its bare minimum.
+Site for [Van Rietschoten Design][link-site], a dutch interior design studio, made in collaboration with [David Kulen][collab1]. Having been given free reign over the site, we allowed ourselves to explore our minimalist tendencies and strip the site to its bare minimum.
 
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/vrd/site1.jpg)][link-site]
@@ -19,6 +19,8 @@ The whole site uses only one type size, one typeface and one weight. There are a
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/vrd/site4.jpg)][link-site]
 
 David worked mainly on the desktop design, while I programmed the whole site and adapted it for mobile devices. The coding was done with SASS, Compass, Susy, Require.js, underscore.js, jquery and Wordpress ([Github link][git]).
+
+Online at [http://vanrietschotendesign.nl][link-site].
 
 [link-site]: http://vanrietschotendesign.nl
 [collab1]: http://dkulen.net

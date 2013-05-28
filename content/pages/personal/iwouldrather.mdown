@@ -5,7 +5,7 @@ Categories: personal
 
 # I Would Rather My Streets (2011)
 
-Final project for [Hyper Island](http://hyperisland.com), which was an art installation. I spread QR codes with site-specific micro-stories spread around Stockholm.
+[I Would Rather My Streets][link-site] was an installation and my final project for [Hyper Island](http://hyperisland.com). I spread QR codes with site-specific micro-stories spread around Stockholm.
 
 <b class="site-frame">
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/site1.jpg)][link-site]
@@ -28,6 +28,8 @@ I developed an identity system is composed of situationist maps that can guide t
 The site was just a single html page and used the google maps api plus some javascript for the paths ([Github link][git]).
 
 Since I had a bit of free time, I also wrote three texts around the themes of [narratives](http://discourse.guimachiavelli.com/dwelling-and-detournement/), [situationism](http://discourse.guimachiavelli.com/site-specific-narratives/) and [memory](http://discourse.guimachiavelli.com/i-would-rather-my-streets/). Yeah, I'm that kind of person.
+
+Online at [http://iwouldrathermystreets.com][link-site].
 
 
 [link-site]: http://iwouldrathermystreets.com

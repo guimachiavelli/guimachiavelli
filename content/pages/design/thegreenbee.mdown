@@ -21,8 +21,11 @@ We also collaborated on the MeatYourOwn hotsite, which is a seal attributed to f
 
 I worked only as a front-end developer on this project, relying heavily on jquery and the google maps api, plus SASS, compass and susy. The back-end was developed in python/Django by [Wouter Hassing][collab3].
 
+
+Online at [http://thegreenbee.nl/][link-site] and [http://www.meatyourown.nl][link-site2].
+
 [collab1]: http://dkulen.net
 [collab2]: http://enbiun.nl
 [collab3]: http://github.com/wouterhassing
 [link-site]: http://thegreenbee.nl
-[link-site2]: http://thegreenbee.nl/myo
+[link-site2]: http://meatyourown.nl

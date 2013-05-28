@@ -5,7 +5,7 @@ Flags: site
 
 # Watergun (2012)
 
-Watergun is a London-based motion graphics studio, specializing in commercials, branded content, music videos and film.
+[Watergun][link-site] is a London-based motion graphics studio, specializing in commercials, branded content, music videos and film.
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/watergun/site1.jpg)][link-site]
 
@@ -15,6 +15,9 @@ I programmed the front- and back-end, based on the designs sent by watergun.
 
 [![](http://dl.dropbox.com/u/5229171/portfolio/images/watergun/site3.jpg)][link-site]
 
-The coding was done with SASS+Compass+Susy, JQuery and Wordpress.
+The coding was done with SASS+Compass+Susy, JQuery and Wordpress ([Github Link][git]) ([Project Site][link-site]).
+
+Online at [http://watergun.tv/][link-site].
 
 [link-site]: http://watergun.tv/
+[git]: http://github.com/guimachiavelli/watergun.tv
