@@ -113,7 +113,7 @@ p {
 			@include box-sizing(border-box);
 
 			&:before {
-				content: '⊗ ⊝ ⊕';
+				content: '• • •';
 				color: #000bff;
 				font-size: 1.8em;
 				text-align: left;

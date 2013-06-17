@@ -461,7 +461,7 @@ p {
   box-sizing: border-box;
 }
 .post.home figure.site:before {
-  content: '⊗ ⊝ ⊕';
+  content: '• • •';
   color: #000bff;
   font-size: 1.8em;
   text-align: left;
@@ -519,10 +519,10 @@ p {
 /* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
    Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
 @media screen and (max-device-width: 880px) {
-  #intro, .site-frame, .post footer, .menu, p {
+  #intro, .site, .site-frame, .post footer, .menu, p {
     -webkit-font-smoothing: subpixel-antialiased !important;
   }
-  #intro a, #intro:before, #intro:after, .site-frame a, .site-frame:before, .site-frame:after, .post footer a, .post footer:before, .post footer:after, .menu a, .menu:before, .menu:after, p a, p:before, p:after {
+  #intro a, #intro:before, #intro:after, .site a, .site:before, .site:after, .site-frame a, .site-frame:before, .site-frame:after, .post footer a, .post footer:before, .post footer:after, .menu a, .menu:before, .menu:after, p a, p:before, p:after {
     -webkit-font-smoothing: subpixel-antialiased !important;
   }
 
@@ -542,7 +542,7 @@ p {
   }
 
   .menu {
-    width: 100%;
+    width: 90%;
     top: 0;
     right: auto;
     left: 3%;
@@ -556,8 +556,8 @@ p {
     display: inline-block;
   }
 
-  .single p, .single img, .single .site-frame {
-    width: 100%;
+  .post.single p, .post.single img, .post.single .site-frame {
+    width: 100% !important;
   }
 
   .post footer {
