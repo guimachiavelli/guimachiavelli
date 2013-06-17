@@ -10,8 +10,8 @@ root = ::File.dirname(__FILE__)
 require 'sass'
 require 'sass/plugin/rack'
 
-Compass.add_project_configuration(root + '/config/compass.config')
-Compass.configure_sass_plugin!
+#Compass.add_project_configuration(root + '/config/compass.config')
+#Compass.configure_sass_plugin!
 
 use Sass::Plugin::Rack  # Sass Middleware
 
