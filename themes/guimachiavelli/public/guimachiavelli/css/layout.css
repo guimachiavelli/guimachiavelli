@@ -352,9 +352,6 @@ input, select {
 }
 
 /* END RESET CSS */
-/* Primary Styles
-   Author: guiMachiavelli
-*/
 * html {
   font-size: 75%;
 }
@@ -522,22 +519,49 @@ p {
 /* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
    Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
 @media screen and (max-device-width: 880px) {
+  #intro, .site-frame, .post footer, .menu, p {
+    -webkit-font-smoothing: subpixel-antialiased !important;
+  }
+  #intro a, #intro:before, #intro:after, .site-frame a, .site-frame:before, .site-frame:after, .post footer a, .post footer:before, .post footer:after, .menu a, .menu:before, .menu:after, p a, p:before, p:after {
+    -webkit-font-smoothing: subpixel-antialiased !important;
+  }
+
   #intro {
+    font-size: 1.5em;
+    line-height: 2em;
+    position: static;
+    margin-bottom: 6em;
+  }
+  #intro h1 {
+    display: block;
+    font-size: 3.33333em;
+    line-height: 1.35em;
+  }
+  #intro hgroup {
     float: none;
   }
 
   .menu {
-    position: static;
-    width: auto;
-    margin: 3em 0 3em 0;
+    width: 100%;
+    top: 0;
+    right: auto;
+    left: 3%;
+    font-size: 1.16667em;
+    line-height: 1.28571em;
   }
   .menu li {
-    line-height: 1.3;
-    margin: 0;
+    display: none;
+  }
+  .menu li:first-child {
+    display: inline-block;
   }
 
-  .post.single p {
-    width: 100% !important;
+  .single p, .single img, .single .site-frame {
+    width: 100%;
+  }
+
+  .post footer {
+    display: none;
   }
 
   /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you

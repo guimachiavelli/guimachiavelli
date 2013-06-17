@@ -2,9 +2,10 @@
 @import "partials/reset";
 @import "partials/head";
 
- /* Primary Styles
-    Author: guiMachiavelli
- */ 
+  
+ //	Primary Styles
+ // Author: guiMachiavelli
+ 
 
 @include establish-baseline;
 
@@ -190,7 +191,6 @@ p {
 
 
 @import "partials/mobile";
-
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	body, select, input, textarea {background-image:none}
