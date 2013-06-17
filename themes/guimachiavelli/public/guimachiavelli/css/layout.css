@@ -536,6 +536,7 @@ p {
     display: block;
     font-size: 2.5em;
     line-height: 1.2em;
+    margin-bottom: 5px;
   }
   #intro hgroup {
     float: none;
@@ -558,6 +559,19 @@ p {
 
   .post.single p, .post.single img, .post.single .site-frame {
     width: 100% !important;
+  }
+  .post.single h1 {
+    font-size: 3em;
+    line-height: 1.25em;
+  }
+  .post.single p {
+    font-size: 1.16667em;
+    line-height: 1.92857em;
+  }
+
+  .home figure .site:before, .single .site-frame:before {
+    content: '• • •' !important;
+    padding-top: 3px;
   }
 
   .post footer {
