@@ -1,0 +1,85 @@
+@media screen and (max-device-width: 880px) {
+	
+	#wrap {
+		
+	}
+
+	#intro, .site, .site-frame, .post footer, .menu, p {
+		-webkit-font-smoothing: subpixel-antialiased !important;
+		& a, &:before, &:after {
+			-webkit-font-smoothing: subpixel-antialiased !important;
+		}
+	}
+	
+	#intro {
+		@include adjust-font-size-to(18px);
+		position: static;
+		margin-bottom: rhythm(4);
+
+		h1 {
+			display: block;
+			@include adjust-font-size-to(30px);
+			margin-bottom: 8px;
+		}
+
+		hgroup {
+			float: none
+		}
+		
+	}
+
+	.menu {
+		width: 90%;
+		top: 0;
+		right: auto;
+		left: 3%;
+		@include adjust-font-size-to(14px);
+
+		li {
+			display: none;
+			&:first-child {
+				display: inline-block;
+			}
+		}
+	}
+
+	.post.single {
+		p, img, .site-frame {
+			width: 100% !important;
+		}
+
+		h1 {
+			@include adjust-font-size-to(36px, 2.5);
+		}
+
+		p {
+			@include adjust-font-size-to(14px, 1.25);
+		}
+
+	}
+	.home figure .site, .single .site-frame {
+		&:before {
+			content: '• • •' !important;
+			padding-top: 3px
+		}
+	}
+
+	.post footer {
+		display: none;
+	}
+  
+ // body, select, input, textarea {background-image:none}
+  /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
+     j.mp/textsizeadjust 
+  //html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+
+
+
+
+@media only screen and (max-device-width: 768px) {
+	
+
+
+}

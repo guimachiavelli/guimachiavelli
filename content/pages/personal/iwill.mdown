@@ -24,7 +24,7 @@ This was created for Werkplaats Typografie and ISIA Urbino's summerschol. Our as
 
 The whole thing was made in PHP (based on open-sourced code from [Recyclism][reference1]) plus the usual front-end stuff ([Github link][git]).
 
-Online at [http://iwill.guimachiavelli.com/][link-site].
+<del>Online since july 2011 at [http://iwill.guimachiavelli.com/][link-site].</del> Twitter recently made full transition into its new API and scrapped the previous one. Until I have time to update my code, the site will be offline.
 
 [link-site]:http://iwill.guimachiavelli.com
 [reference1]: http://recyclism.com
