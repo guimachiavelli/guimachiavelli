@@ -506,6 +506,23 @@ p {
   line-height: 1;
 }
 
+dt {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 3em;
+}
+
+dd {
+  width: 40%;
+  margin-bottom: 1.5em;
+}
+dd:before {
+  content: '✜ ';
+  color: #000bff;
+  position: absolute;
+  left: 1%;
+}
+
 /*
  * Media queries for responsive design
  * These follow after primary styles so they will successfully override. 

@@ -19,12 +19,13 @@ Professional activities
 
 Studies
 : 2010 – 2012 \| Digital Media — [Hyper Island][hyper], Stockholm, Sweden.
+: 2011 \| Werkplaats Typografie + ISIA Urbino Summerschool – sequence of lectures and one project with guidance from teachers both from Werkplaats (Armand Mevis, Karel Martens) and ISIA (Leonardo Sonnoli).
 : 2009 \| Procedência & Propriedade 2009/1 – Intensive drawing and conceptualization course, created by Charles Watson.
 : 2004 – 2009 \| BA Communications – Journalism. Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil.
 
 
 Skills
-: HTML/CSS/JS (advanced), Wordpress(advanced), PHP (intermediary), Ruby (basic), Processing (basic), Openframeworks (basic).
+: HTML/CSS/JS (advanced), Wordpress(advanced), PHP (intermediary), Ruby (basic), Processing (basic), Scheme (basic).
 
 Languages
 : Portuguese (native), English (fluent), Italian (fluent), Spanish (intermediary), French (intermediary), Swedish (intermediary).
