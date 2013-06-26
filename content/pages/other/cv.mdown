@@ -25,10 +25,10 @@ Studies
 
 
 Skills
-: HTML/CSS/JS (advanced), Wordpress(advanced), PHP (intermediary), Ruby (basic), Processing (basic), Scheme (basic).
+: HTML/CSS-SASS/JS-Cofeescript (advanced), Wordpress(advanced), PHP (intermediary), Ruby (basic), Processing (basic), LISP-Scheme (basic), Node.js(basic).
 
 Languages
-: Portuguese (native), English (fluent), Italian (fluent), Spanish (intermediary), French (intermediary), Swedish (intermediary).
+: Portuguese (native), English (fluent), Italian (fluent), Spanish (intermediary), French (intermediary), Swedish (basic).
 
 Group exhibitions
 : 26 november – 2011 \| I Will. Eddie the Eagle Hackathon. Amsterdam, The Netherlands.

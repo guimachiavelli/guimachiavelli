@@ -4,35 +4,26 @@
    ========================================================================== */
 
 @media print {
+
+
     * {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
+//        color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow:none !important;
         text-shadow: none !important;
     }
+	
+	#cv {
+		margin: rhythm() 0;
+	}
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
+	.menu {
+		display: none;
+	}
+	
+	dd {
+		width: 100%
+	}
 
     pre,
     blockquote {
@@ -54,7 +45,7 @@
     }
 
     @page {
-        margin: 0.5cm;
+        margin: 0.7cm;
     }
 
     p,
@@ -68,4 +59,6 @@
     h3 {
         page-break-after: avoid;
     }
+
+	
 }
