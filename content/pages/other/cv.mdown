@@ -3,14 +3,17 @@ Thumbnail: dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/map-excerpt.jp
 Link: google.com
 Flags: other
 
-[pv]: http: //www.pinar-viola.com
-[mobe]:  http: //www.mobedesign.com.br
-[w3]: http: //www.mobedesign.com.br
-[hyper]:  http: //www.hyperisland.com
+[lm]: http://www.lamoulade.com
+[pv]: http://www.pinar-viola.com
+[mobe]:  http://www.mobedesign.com.br
+[w3]: http://www.mobedesign.com.br
+[hyper]:  http://www.hyperisland.com
 
 # CV
 
 Professional activities
+: october 2013 —  \| front-end developer at london-based french digital studio [La Moulade][lm].
+: april 2012 — december 2013 \| freelance front-end developer.
 : november 2011 — april 2012 \| intern at turkish-dutch design studio [Pinar&Viola][pv].
 : april 2008 — august 2010 \| designer and developer at [Mobe][mobe].
 : july 2007 — april 2008 \| Front-end developer at brazilian digital agency [W3Haus][w3].
