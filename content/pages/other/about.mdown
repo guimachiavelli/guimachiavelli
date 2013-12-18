@@ -1,8 +1,10 @@
 # about
 
-italo-brazilian, 26 years old. 
+italian-brazilian, 27 years old. 
 
-work mainly as a freelancer, but also at [pinar&viola][pv], [mobe][mundus] and [w3haus][w3].
+currently at [la moulade][lm]
+
+worked as a freelancer, at [pinar&viola][pv], [mobe][mundus] and [w3haus][w3]. 
 
 graduated in journalism in 2009 in brazil and then in digital media in 2012 at [hyper island][hyper].
 
@@ -21,3 +23,4 @@ speak fluent portuguese, english and italian plus a bit of spanish, a bit of fre
 [mundus]: http://mobe.com.br
 [w3]: http://w3haus.com.br
 [hyper]: http://hyperisland.com
+[lm]: http://www.lamoulade.com
