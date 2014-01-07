@@ -1,5 +1,5 @@
 Date: 2010-01-31
-Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/dynamisk/site0.jpg
+Thumbnail: http://dump.guimachiavelli.com/portfolio/images/dynamisk/site0.jpg
 Categories: design
 Flags: site
 
@@ -9,8 +9,8 @@ Flags: site
 
 Online at [http://dynamiskgatebelysning.no/][link-site].
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/dynamisk/site0.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/dynamisk/site0.jpg)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/dynamisk/site1.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/dynamisk/site1.jpg)][link-site]
 
 [link-site]: http://dynamiskgatebelysning.no/

@@ -1,5 +1,5 @@
 Date: 2013-01-10
-Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/watergun/site1.jpg
+Thumbnail: http://dump.guimachiavelli.com/portfolio/images/watergun/site1.jpg
 Categories: coding
 Flags: site
 
@@ -7,13 +7,13 @@ Flags: site
 
 [Watergun][link-site] is a London-based motion graphics studio, specializing in commercials, branded content, music videos and film.
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/watergun/site1.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/watergun/site1.jpg)][link-site]
 
 I programmed the front- and back-end, based on the designs sent by watergun. 
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/watergun/site2.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/watergun/site2.jpg)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/watergun/site3.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/watergun/site3.jpg)][link-site]
 
 The coding was done with SASS+Compass+Susy, JQuery and Wordpress ([Github Link][git]) ([Project Site][link-site]).
 

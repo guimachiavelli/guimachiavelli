@@ -1,26 +1,27 @@
 Date: 2011-01-10
-Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill7.jpg
+Thumbnail: http://dump.guimachiavelli.com/portfolio/images/iwill/iwill7.jpg
 Categories: personal
 
 # I Will (2011)
 
 I created [I Will][link-site], a site that corrupts the avatars of twitter users who say "I Will", as a conceptual exploration on how one's wishes affect one's future.
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill1.jpg)][link-site]
+[![](https://www.dropbox.com/sh/15pvf2l3yr3omzv/uD9mUJTagx/images/iwill/iwill1.jpg)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill2.jpg)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill3.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/iwill/iwill2.jpg)][link-site]
+
+[![](http://dump.guimachiavelli.com/portfolio/images/iwill/iwill3.jpg)][link-site]
 
 This was created for Werkplaats Typografie and ISIA Urbino's summerschol. Our assignment was to create a project around the idea of time; we also had a jolly good time there. 
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill4.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/iwill/iwill4.jpg)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill5.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/iwill/iwill5.jpg)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill6.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/iwill/iwill6.jpg)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwill/iwill7.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/iwill/iwill7.jpg)][link-site]
 
 The whole thing was made in PHP (based on open-sourced code from [Recyclism][reference1]) plus the usual front-end stuff ([Github link][git]).
 

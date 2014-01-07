@@ -1,5 +1,5 @@
 Date: 2011-02-10
-Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/site1.jpg
+Thumbnail: http://dump.guimachiavelli.com/portfolio/images/iwouldrather/site1.jpg
 Categories: personal
 
 
@@ -8,21 +8,21 @@ Categories: personal
 [I Would Rather My Streets][link-site] was an installation and my final project for [Hyper Island](http://hyperisland.com). I spread QR codes with site-specific micro-stories spread around Stockholm.
 
 <b class="site-frame">
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/site1.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/iwouldrather/site1.jpg)][link-site]
 </b>
 
-> [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/place1.jpg)][link-site]
+> [![](http://dump.guimachiavelli.com/portfolio/images/iwouldrather/place1.jpg)][link-site]
 > Suddenly, I was greeted by a fleet of italian tourists in segways.
 
-> [![](http://dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/place2.jpg)][link-site]
+> [![](http://dump.guimachiavelli.com/portfolio/images/iwouldrather/place2.jpg)][link-site]
 > I always pictured coming home with someone and sitting on these benches, looking at the sun rising. I did it alone, however.
 
 I developed an identity system is composed of situationist maps that can guide the viewer around the art installation.
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/maps.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/iwouldrather/maps.jpg)][link-site]
 
 <b class="site-frame">
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/iwouldrather/site2.jpg)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/iwouldrather/site2.jpg)][link-site]
 </b>
 
 The site was just a single html page and used the google maps api plus some javascript for the paths ([Github link][git]).

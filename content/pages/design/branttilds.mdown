@@ -1,5 +1,5 @@
 Date: 2008-01-10
-Thumbnail: http://dl.dropbox.com/u/5229171/portfolio/images/branttilds/site0.jpg
+Thumbnail: http://dump.guimachiavelli.com/portfolio/images/branttilds/site0.jpg
 Categories: coding, design
 Flags: site, draft
 
@@ -8,15 +8,15 @@ Flags: site, draft
 
 Small site I designed and developed as a designer at Mobe for a musician specialized in latin jazz. Back-end in Wordpress, front-end in html/css/js. Online at [http://branttilds.com][link-site].
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/branttilds/site1.png)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/branttilds/site1.png)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/branttilds/site2.png)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/branttilds/site2.png)][link-site]
 
-[![](http://dl.dropbox.com/u/5229171/portfolio/images/branttilds/site3.png)][link-site]
+[![](http://dump.guimachiavelli.com/portfolio/images/branttilds/site3.png)][link-site]
 
 After the site, we were asked to design the cover of his first solo album. Which I've never seen in real life, so I only have a <del>shitty</del> bad quality scan of the front. He seemed very happy on the phone, though. For real.
 
-![](http://dl.dropbox.com/u/5229171/portfolio/images/branttilds/cd.jpg)
+![](http://dump.guimachiavelli.com/portfolio/images/branttilds/cd.jpg)
 
 
 [link-site]:http://branttilds.com
