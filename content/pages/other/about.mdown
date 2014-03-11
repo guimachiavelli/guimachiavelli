@@ -2,9 +2,10 @@
 
 italian-brazilian, 27 years old. 
 
-currently at [la moulade][lm]
+currently freelancing at [applied works][aw].
 
-worked as a freelancer, at [pinar&viola][pv], [mobe][mundus] and [w3haus][w3]. 
+worked as a freelancer, at [la moulade][lm],
+[pinar&viola][pv], [mobe][mundus] and [w3haus][w3]. 
 
 graduated in journalism in 2009 in brazil and then in digital media in 2012 at [hyper island][hyper].
 
@@ -24,3 +25,4 @@ speak fluent portuguese, english and italian plus a bit of spanish, a bit of fre
 [w3]: http://w3haus.com.br
 [hyper]: http://hyperisland.com
 [lm]: http://www.lamoulade.com
+[aw]: http://appliedworks.co.uk
