@@ -1,0 +1,36 @@
+Date: 2014-01-10
+Thumbnail: http://dump.guimachiavelli.com/portfolio/images/aw/aw-cover.jpg
+Categories: coding
+
+# Applied Works (2014-2015)
+
+Starting january 2014 until july 2015 I worked for [Applied Works][link-collab], a british digital studio focused on UX design and data visualisation. We worked in diverse projects ranging from software prototype development for call centres, data visualisations for financial institutions and short projects for the BBC.
+
+Though we had a small development team and thus all had the opportunity to contribute to every project, I was the the main responsible for:
+
+## Applied Works website
+Working with Richard Males, we extended Wordpress to allow for finer-grained control over the layout of each post. We also created a system that would periodically harvest all the studio's social media feeds, format and display them in an infinite scrollable and filtrable interface.
+
+[![](http://dump.guimachiavelli.com/portfolio/images/aw/aw-1.png)][link-collab]
+[![](http://dump.guimachiavelli.com/portfolio/images/aw/aw-2.png)][link-collab]
+
+
+## Mazars Annual Report 2014
+We were asked to create several data visualisations for french accountancy firm [Mazars][commissioner-mazars] to show how they had grown and highlight particularly interesting points from their last 10 years. 
+[![](http://dump.guimachiavelli.com/portfolio/images/aw/mazars.png)][link-site-mazars]
+
+
+## BBC Happiest Place and BBC Dish Up
+We were regularly commissioned by the [BBC][commissioner-bbc] to create small interactive activities. I was particularly involved with [Where in Britain would you be happiest?][link-site-happiest] and [How can I fit cooking into my life?][link-site-dishup]. Both were fully responsive javascript-heavy web apps with similar interaction patterns. That similarity allowed us to build up and improve significantly between projects.
+
+[![](http://dump.guimachiavelli.com/portfolio/images/aw/happiest-2.png)][link-site-happiest]
+
+[![](http://dump.guimachiavelli.com/portfolio/images/aw/dishup.png)][link-site-dishup]
+
+
+[commissioner-mazars]: http://www.mazars.com/
+[link-site-mazars]: http://annualreport.mazars.com/data/
+[link-site-happiest]: http://www.bbc.co.uk/guides/z3g487h#z9s3r82
+[link-site-dishup]: http://www.bbc.co.uk/guides/zshkwmn#zwwyb9q
+[commissioner-bbc]: http://bbc.co.uk
+[link-collab]: http://appliedworks.co.uk
